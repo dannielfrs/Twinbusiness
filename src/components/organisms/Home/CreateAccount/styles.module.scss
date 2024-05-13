@@ -1,0 +1,84 @@
+.form {
+    width: 16.51vw;
+    max-height: 85vh;
+    position: absolute;
+    right: 0.8vw;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.39vh 0.78vw 1.39vh;
+    z-index: 50;
+
+    @media (max-width: 1000px) {
+        top: 6rem;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        width: 17.50vw;
+    }
+
+    .button_close {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-weight: 700;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .miniLogo {
+        width: 222px;
+        height: 48px;
+        margin-bottom: 9px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .title {
+        font-family: "Heebo", sans-serif;
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .form_body {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        width: 100%;
+        gap: 13px;
+        align-items: center;
+
+        .form_input {
+            width: 100%;
+        }
+
+        .accept {
+            font-size: 11px;
+            text-align: center;
+            width: 80%;
+
+            label {
+                font-weight: 700;
+            }
+
+            a {
+                font-weight: 700;
+                text-decoration: underline !important;
+            }
+        }
+
+        .titleTerms {
+            margin-top: -10px;
+            text-decoration: underline !important;
+        }
+    }
+}

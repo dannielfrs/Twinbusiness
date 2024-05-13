@@ -1,0 +1,33 @@
+.left{
+    background-color: #000;
+    min-height: 100vh;
+    border-radius: 0px 75px 0px 0px;
+    text-align: center;
+    
+    .content{
+        width: 60%;
+        margin: 0 auto;
+        padding-top: calc(100% - 70%);
+        text-align: left;
+        .imageLogo{
+            width: 100%;
+            margin-bottom: 60px;
+        }
+
+        h2{
+            font-size: 1.8vw;
+            color: #F8F8FC;
+            font-weight: 400;
+        }
+    }
+}
+.backRadius{
+    background-color: #000;
+    .backWhite{
+        background-color: #f8f8f8;
+        height: 100%;
+        border-radius: 0px 0px 0px 75px;
+        padding: 0 36px;
+        padding-bottom: 110px;
+    }
+}

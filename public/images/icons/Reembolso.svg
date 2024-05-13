@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="779" viewBox="0 0 826 779">
+  <defs>
+    <clipPath id="clip-Web_1920_54">
+      <rect width="826" height="779"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_54" data-name="Web 1920 – 54" clip-path="url(#clip-Web_1920_54)">
+    <rect width="826" height="779" fill="#fff"/>
+    <path id="reembolso" d="M182.945,181.945V167.033A59.649,59.649,0,0,0,123.3,107.384H63.648m0,0,44.736,44.736M63.648,107.384l44.736-44.736M242.593,271.417V32.824A29.824,29.824,0,0,0,212.769,3H33.824A29.824,29.824,0,0,0,4,32.824V271.417l59.648-29.824L123.3,271.417l59.648-29.824Z" transform="translate(290.354 252.336)" fill="none" stroke="#0f1215" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  </g>
+</svg>

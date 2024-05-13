@@ -1,0 +1,84 @@
+/**
+ * Styles for base component
+ */
+.slider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 5px;
+
+  .slider_labels {
+    width: 100%;
+    //display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .labeldiv {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      .maxright {
+        text-align: right;
+      }
+    }
+
+    label {
+      font-size: 16px;
+      font-weight: 600;
+      color: #262d3f;
+      margin-bottom: 0;
+    }
+
+    span {
+      font-size: 12px;
+      color: #a0a0a3;
+    }
+
+    .invalid_text {
+      color: #cf1515;
+    }
+  }
+
+  
+
+  .minmaxdivlabels {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    label {
+      font-size: 12px;
+    }
+
+    .maxright {
+      text-align: right;
+    }
+  }
+}
+
+/**
+ * Styles for color variant
+ * 
+ * Primary color
+ */
+
+/**
+ * White color
+ */
+.white {
+  [class~='p-slider'] {
+    background-color: #eee;
+  }
+  [class~='p-slider-handle'] {
+    background: #000;
+    border: 2px solid #000;
+    top: -7px;
+
+    &:focus,
+    &:focus-visible {
+      border: 2px solid #000;
+      box-shadow: inherit;
+    }
+  }
+  [class~='p-slider-range'] {
+    background: #000;
+  }
+}

@@ -1,0 +1,178 @@
+.Alerts{
+    width: 100%;
+    position: fixed;
+    background: #C3C3C36E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 100;
+    .modalback{
+        border-radius: 20px;
+        padding: 5px;
+        background: hsla(0,0%,100%,.12);
+        border-right: 5px solid #e2e2e2;
+        box-shadow: 6px 2px 9px 0 hsla(0,2%,66%,.75);
+    }
+    .modal{
+        width: 900px;
+        height: 650px;
+        background: #F8F8FC;
+        border-radius: 25px;
+        padding: 10px 70px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        box-shadow: inset 5px 5px 3px #FFFFFF99, inset -5px -5px 3px #FFFFFF99;
+        
+        .textAlign{
+            text-align: -webkit-center;
+        }
+
+        .imageTime{
+            width: 333px;
+            height: auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .fDiv{
+            width: 100%;
+            text-align: center;
+            text-align: -webkit-center;
+
+            .imgs{
+                width: 350px;
+                height: auto;
+                display: flex;
+                place-items: center;
+                justify-content: center;
+            }
+
+            .msj{
+                // text-transform: uppercase;
+                // font: normal normal bold 30px/44px Heebo;
+                 letter-spacing: 0.54px;
+                 color: #000000;
+                 opacity: 1;
+                 padding: 20px 0px;
+                 font-size: 22px;
+                 font-weight: 500;
+                 line-height: 1;
+            }
+
+            .title{
+                letter-spacing: 1px;
+                color: #000000;
+                opacity: 1;
+                padding: 20px 0px;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 1.0;
+            }
+
+            // .btns{
+            //     width: 200px;
+            //     margin-bottom: 50px;
+            // }
+
+            // .titleTwo{
+            //     // font: normal normal bold 30px/44px Heebo;
+            //     letter-spacing: 0.54px;
+            //     color: #000000;
+            //     opacity: 1;
+            //     font-size: 30px;
+            //      font-weight: 700;
+            // }
+            
+        }
+        .tabsBtns{
+            display: flex;
+            flex-direction: row;
+            width: 389px;
+            background: #F8F8FC;
+            box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+            border-radius: 12px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 38px;
+            padding: 6px 9px;
+    
+            .cont_tabs{
+                @media (min-width: 1024px) and (max-width: 1440px){
+                    width: 63px;
+                }
+            }
+        }
+
+        .passback{
+            width: 500px;
+            background: hsla(0, 0%, 100%, 0.12);
+            padding: 5px 10px;
+            margin-top: 10px;
+            box-shadow: 6px 2px 9px 0 hsla(0, 2%, 66%, 0.75);
+            border-radius: 5%;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+            
+            .text{
+                // font: normal normal normal 25px/34px Heebo;
+                letter-spacing: 0.54px;
+                color: #000000;
+                opacity: 1;
+                font-size: 14px;
+                text-align: center;
+                font-weight: 700;
+                align-self: center;
+            }
+
+            .InputTextCode{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+        
+                .text{
+                    font-size: 13px;
+                    text-align: center;
+                }
+                .container_code{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 6px;
+                    width: 239px;
+                    align-self: center;
+                }
+            }
+
+        }
+
+        .imageAnuncio{
+            width: 100%;
+            height: 350px;
+            background-color: #8D8D8D;
+            border: 5px solid #FFFFFF99;
+            border-radius: 20px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .btns{
+            width: 500px;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+    }
+}

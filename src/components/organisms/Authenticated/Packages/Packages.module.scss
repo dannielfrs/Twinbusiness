@@ -1,0 +1,102 @@
+.Packages{
+    background: #F8F8FC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 90px 60px 42px 90px;
+    @media (min-width: 1024px) and (max-width: 1440px){
+        height: 100vh;
+    }
+    .cardP{
+        padding: 26px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 86vh;
+        @media (min-width: 1024px) and (max-width: 1440px){
+            gap: 8px;
+        }
+
+        .ContTitle{
+            height: 73px;
+            padding: 0 38px;
+            box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 500;
+            width: 1016px;
+            border-radius: 5px;
+            @media (min-width: 1024px) and (max-width: 1440px){
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .cards{
+            display: flex;
+            flex-direction: row;
+            gap: 46px;
+        }
+
+        .PaymentMethods{
+            display: flex;
+            flex-direction: row;
+            .text{
+                font-size: 27px;
+                color: #707070;
+                @media (min-width: 1024px) and (max-width: 1440px){
+                    font-size: 20px;
+                }
+            }
+
+            .imagePay{
+                display: flex;
+                flex-direction: row;
+                gap: 17px;
+
+                .twins{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 13px;
+                    align-items: center;
+
+                    img{
+                        width: 54px;
+                        height: 54px;
+                    }
+                }
+
+                .master{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 17px;
+                    align-items: center;
+
+                    .imgVisa{
+                        width: 82px;
+                        height: 26px;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .imgMaster{
+                        width: 49px;
+                        height: 49px;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

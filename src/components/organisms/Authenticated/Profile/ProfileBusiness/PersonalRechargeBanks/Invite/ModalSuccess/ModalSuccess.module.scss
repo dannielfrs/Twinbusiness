@@ -1,0 +1,76 @@
+.ModalSuccess{
+    width: 100%;
+    position: fixed;
+    background: #C3C3C36E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 100;
+
+    .modalback {
+        border-radius: 20px;
+        padding: 5px;
+        background: hsla(0, 0%, 100%, .12);
+        border-right: 5px solid #e2e2e2;
+        box-shadow: 6px 2px 9px 0 hsla(0, 2%, 66%, .75);
+    }
+
+    .modal {
+        width: 900px;
+        height: 650px;
+        background: #F8F8FC;
+        border-radius: 25px;
+        padding: 37px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        box-shadow: inset 5px 5px 3px #FFFFFF99, inset -5px -5px 3px #FFFFFF99;
+        position: relative;
+
+        .ImageTwin{
+            width: 417px;
+            height: 97px; 
+ 
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .ImageSuccess{
+            width: 51px;
+            height: 62px;
+            
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .text{
+            font-size: 30px;
+            font-weight: 700;
+            color: #000;
+            text-align: center;
+        }
+
+        .CardText{
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            .text2{
+               font-size: 30px;
+               color: #000; 
+               width: 464px;
+               text-align: center;
+            }
+        }
+    }
+}

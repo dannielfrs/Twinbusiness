@@ -1,0 +1,413 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 44px;
+    
+    .card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 18px 82px;
+        width: 33%;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+            padding: 18px 32px;
+        }
+
+        .title{
+            font-size: 40px;
+            color: #1C1C1C;
+            @media (min-width: 1024px) and (max-width: 1538px){
+                text-align: center;
+            }
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 28px;
+            gap: 10px;
+
+            .subtitle{
+                font-size: 17px;
+                font-weight: 700;
+            }
+
+            .text1{
+               font-size: 15px; 
+               color: #000000;
+               margin-top: -8px;
+            }
+
+            .text2{
+                font-size: 14px;
+                color: #000000;
+                text-align: center;
+            }
+
+            .contButton{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                button{
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    .card2{
+        display: flex;
+        align-items: center;
+        padding: 18px 67px;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 33%;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        *::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+            box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+              inset -3px 3px 4px rgb(255 255 255);
+            border-radius: 10px;
+        }
+        .title{
+            font-size: 40px;
+            color: #000;
+        }
+
+        .bank{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 4px;
+
+            .title{
+               font-size: 18px;
+               font-weight: bold; 
+            }
+
+            .contAccount2{
+                width: 100%;
+                height: 40px;
+                box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                padding: 0 14px;
+
+                p{
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+
+            .cardsSave{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title{
+                   font-size: 23px;
+                   font-weight: 700;
+                }
+                .containers{
+                    width: 100%;
+                    height: 102px;
+                    overflow: scroll;
+                    overflow-x: unset;
+                    .contAccount{
+                        width: 100%;
+                        height: 40px;
+                        box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+                        border-radius: 12px;
+                        display: flex;
+                        align-items: center;
+                        padding: 0 14px;
+                        margin-bottom: 15px;
+                        flex-direction: row;
+                        justify-content: space-between;
+                       p{
+                        color: #575F6BB3;
+                        font-size: 16px;
+                        font-weight: 500;
+                       }
+                    }
+                }
+            }
+
+        }
+        .NewCard{
+            width: 266px;
+            height: 43px;
+        }
+    }
+
+    .card3{
+        padding: 17px 54px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 33%;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+        
+        .title{
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .cont1{
+            padding: 5px 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+            align-items: center;
+            border-radius: 12px;
+
+            .flag{
+                width: 30px;
+                height: 18px;
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .both{
+                display: flex;
+                flex-direction: column;
+
+                .text1{
+                   font-size: 16px; 
+                   color: #000000;
+                }
+
+                .text2{
+                    font-size: 14px;
+                    color: #878D96;
+                }
+            }
+
+            .numberCard{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                .number{
+                    font-size: 14px;
+                    color: #878D96;
+                }
+            }
+        }
+
+        .contCommission{
+            width: 100%;
+            .titleCommission{
+                font-size: 18px;
+                font-weight: 700;
+                width: 100%;
+            }
+            .commission{
+                display: flex;
+                padding: 0 13px;
+                height: 40px;
+                align-items: center;
+                border-radius: 12px;
+                justify-content: space-between;
+                
+                .text1{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+    
+                .text2{
+                    font-size: 13px;
+                }
+    
+                .text3{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .Limit{
+            width: 100%;
+            .contLimit{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                height: 40px;
+                padding: 0 13px;
+                border-radius: 12px;
+    
+                .textLimit{
+                  font-size: 16px;
+                  font-weight: 700;
+                } 
+            }
+        }
+
+        .amount{
+            width: 100%;
+            .title{
+               font-size: 18px;
+               font-weight: 700; 
+            }
+            .CardMonto{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end; 
+                height: 40px;
+                border-radius: 12px;
+                align-items: center;
+                padding: 0 13px;
+                gap: 21px;
+    
+                p{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .InputTextCode{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+
+            .text{
+               font-size: 13px;
+               color: #000; 
+            }
+
+            .container_code{
+                display: flex;
+                flex-direction: row;
+                gap: 6px;
+                width: 239px;
+            }
+        }
+
+        .NewCard{
+            width: 266px;
+            height: 43px;
+            margin-top: 15px;
+        }
+    }
+
+    .card4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 33%;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+        .title{
+            font-size: 40px;
+            color: #000;
+        }
+
+        .contCard{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+
+            .titleNumber{
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .numberCard{
+                display: flex;
+                flex-direction: row-reverse;
+                height: 40px;
+                border-radius: 10px;
+                align-items: center;
+                padding: 0 15px;
+
+                .number{
+                    letter-spacing: 7.5px;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+
+            .contExpire{
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+
+                .cont1{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+                }
+                .cont2{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+                }
+            }
+
+            .CreditCard{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+
+                p{
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                .CardTwin{
+                    width: 275px;
+                    height: 168px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            width: 84%;
+            justify-content: space-between;
+            gap: 15px;
+
+            .button1{
+                height: 43px;
+                width: 197px;
+            }
+
+            .button2{
+                height: 43px;
+                width: 197px;
+            }
+        }
+    }
+
+    .hidden{
+        display: none;
+    }
+}

@@ -1,0 +1,696 @@
+/**
+ * Styles for base component
+ */
+.button[class~="p-button"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 15px;
+    border: none;
+
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        padding: 0 5px;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+
+    [class~="p-button-icon"] {
+        width: 15px;
+        height: 13px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+/**
+ * Styles for color variant
+ * 
+ * Primary color
+ * 
+ */
+.primary[class~="p-button"] {
+    background: #000;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    border: unset;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 1024px) and (max-width: 1538px) {
+        font-size: 9px;
+    }
+
+    // &:hover {
+    //     background: #405563 !important;
+    //     color: #ffffff !important;
+    //     border: unset;
+    // }
+
+    // &:active {
+    //     background-color: #4c5d69 !important;
+    // }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+.third[class~="p-button"] {
+    background: #000000;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+    border: unset;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+
+    // &:hover {
+    //     background: #f2f4f7 !important;
+    //     color: #262d3f !important;
+    //     border: unset;
+    // }
+
+    &:focus {
+        background-color: #898989 !important;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+.thirdGreen[class~="p-button"] {
+    background: #1FA75E;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: unset;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+    // &:hover {
+    //     background: #f2f4f7 !important;
+    //     color: #262d3f !important;
+    //     border: unset;
+    // }
+
+    &:focus {
+        background-color: #1FA75E !important;
+        color: #ffffff;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+.thirdGray[class~="p-button"] {
+    background: #F8F8FC;
+    font-size: 16px;
+    color: #575F6BB3;
+    text-align: center;
+    border: unset;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+    // &:hover {
+    //     background: #f2f4f7 !important;
+    //     color: #262d3f !important;
+    //     border: unset;
+    // }
+
+    &:focus {
+        background-color: #F8F8FC !important;
+        color: #575F6BB3;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+/**
+ * Secondary color
+ */
+.secondary[class~="p-button"] {
+    border: unset;
+    background-color: transparent;
+    background-size: cover;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+
+    &:hover {
+        border: unset;
+        background: unset !important;
+        color: unset !important;
+    }
+
+    // &:active {
+    //     border: 1px solid #384c5c;
+    //     background: #f7f7f7;
+    //     color: #405563;
+    // }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+/**
+ * packages forms 
+ */
+
+.grayForm {
+    background-color: #F8F8FC;
+    padding: 20px 30px !important;
+    box-shadow: 5px 5px 16px 0px rgba(158, 158, 158, 0.75);
+    color: #000000;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 700;
+    border: 1px solid #fff !important;
+    display: flex;
+    justify-content: center;
+
+    &:focus,
+    &:active,
+    &:hover {
+        box-shadow: 5px 5px 16px 0px rgba(158, 158, 158, 0.75) !important;
+    }
+}
+
+
+.blackForm {
+    background-color: #000000;
+    padding: 20px;
+    padding: 20px 30px !important;
+    box-shadow: 5px 5px 16px 0px rgb(158 158 158 / 75%);
+    color: #F8F8FC;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+    &:focus,
+    &:active,
+    &:hover {
+        box-shadow: 5px 5px 10px 0px rgb(158 158 158 / 75%) !important;
+    }
+}
+
+.grayForm2 {
+    background-color: #F8F8FC;
+    padding: 20px 30px !important;
+    box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #fff !important;
+    display: flex;
+    justify-content: center;
+
+    &:focus,
+    &:active,
+    &:hover {
+        box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+    }
+}
+
+
+.blackForm2 {
+    background-color: #000000;
+    padding: 20px;
+    padding: 20px 20px !important;
+    box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF;
+    color: #F8F8FC;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+
+    &:focus,
+    &:active,
+    &:hover {
+        box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+    }
+}
+
+.blackbtn {
+    background-color: #000000;
+    box-shadow: 5px 5px 16px 0px rgb(158 158 158 / 75%);
+    color: #F8F8FC;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+    &:focus,
+    &:active,
+    &:hover {
+        box-shadow: 5px 5px 10px 0px rgb(158 158 158 / 75%) !important;
+    }
+}
+
+.whitebtn {
+    background-color: #fff;
+    box-shadow: 5px 5px 16px 0px rgb(158 158 158 / 75%);
+    color: #000;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+    &:focus,
+    &:active,
+    &:hover {
+        box-shadow: 5px 5px 10px 0px rgb(158 158 158 / 75%) !important;
+    }
+}
+
+.whiteAlert {
+    background: #F8F8FC 0% 0% no-repeat padding-box;
+    padding: 20px;
+    padding: 20px 30px !important;
+    box-shadow: -10px -10px 20px #FFFFFF;
+    border-radius: 12px;
+    color: #575F6BB3;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.blackAlert {
+    background: #000000;
+    padding: 20px;
+    padding: 20px 30px !important;
+    box-shadow: -10px -10px 20px #FFFFFF;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+/**
+ * tabBtn color
+ */
+.tabBtn[class~="p-button"] {
+    background: #F8F8FC;
+    background-size: cover;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.tabActive[class~="p-button"] {
+    background: #F8F8FC;
+    background-size: cover;
+    font-size: 18px;
+    color: #000000;
+    box-shadow: inset 0px 3px 6px #00000029 !important;
+    text-align: center;
+    font-weight: 700;
+
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+//button white
+.White[class~="p-button"] {
+    background: #ffffff;
+    background-size: cover;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    border-radius: 30px;
+    height: 28px;
+    padding: 0 25px;
+}
+
+/**
+ * Delete color
+ */
+.button_delete[class~="p-button"] {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    padding: 0 !important;
+}
+
+/**
+ * Show color
+ */
+.button_show[class~="p-button"] {
+    width: 30px;
+    height: 30px;
+    background-color: #dbdbd9;
+    padding: 0;
+
+    &:hover {
+        background: #cccccc;
+    }
+
+    &:active {
+        background: #cccccc;
+    }
+}
+
+/**
+ * Edit color
+ */
+.button_edit[class~="p-button"] {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    padding: 0;
+}
+
+/**
+ * disabled color
+ */
+.button_disabled[class~="p-button"] {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #d6d6d6;
+    text-decoration: none solid rgb(214, 214, 214);
+    text-align: center;
+    border: unset;
+
+    [class~="p-button-label"] {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    &:hover {
+        background: #f2f2f2;
+    }
+}
+
+/**
+ * Gray color
+ */
+
+.gray-color[class~="p-button"] {
+    background-color: #707070;
+    box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+    border-radius: 0.73vw;
+    color: #fff;
+    padding: 0 1.25vw;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: center;
+
+    &:hover {
+        background-color: #707070;
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    [class~="p-button-icon"] {
+        width: 30px;
+        height: 28px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 16px;
+    }
+}
+
+.backGray[class~="p-button"] {
+    background-color: #EAEAF2;
+    box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+    border-radius: 0.73vw;
+    color: #090B0C;
+    padding: 0 0.25vw;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: center;
+
+    &:hover {
+        background-color: unset;
+    }
+
+    &:active {
+        background-color: unset;
+    }
+
+    [class~="p-button-icon"] {
+        width: 30px;
+        height: 28px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 16px;
+    }
+}
+
+.terms[class~="p-button"] {
+    background-color: transparent;
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    justify-content: center;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    [class~="p-button-icon"] {
+        width: 30px;
+        height: 28px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 11px;
+        text-decoration: underline !important;
+    }
+}
+
+/**
+ * Transparent-static color
+ */
+.transparent-static[class~="p-button"] {
+    background-color: transparent;
+    box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+    border-radius: 0.73vw;
+    color: #000;
+    padding: 0 1.25vw;
+    font-size: 9px;
+    font-weight: 700;
+    justify-content: center;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    [class~="p-button-icon"] {
+        width: 30px;
+        height: 28px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 16px;
+    }
+}
+
+/**
+ * Transparent-static color
+ */
+.transparent[class~="p-button"] {
+    background-color: transparent;
+    color: #000;
+    padding: 5px;
+    justify-content: center;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    [class~="p-button-icon"] {
+        width: 30px;
+        height: 28px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 16px;
+    }
+}
+
+/**
+ * button actions color
+ */
+.button_actions[class~="p-button"] {
+    background-color: transparent;
+    border-radius: 10px;
+    color: #000;
+    padding: 0 5px;
+    font-size: 9px;
+    font-weight: 700;
+    justify-content: center;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+        object-fit: contain;
+    }
+}
+
+/**
+ * add color
+ */
+.add[class~="p-button"] {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    img {
+        width: 45px;
+        height: 45px;
+    }
+
+    label {
+        cursor: pointer;
+    }
+}
+
+.letter-gray[class~="p-button"] {
+    background-color: transparent;
+    box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+    border-radius: 0.73vw;
+    color: #878D96;
+    padding: 0 1.25vw;
+    font-size: 17px;
+    font-weight: 700;
+    justify-content: center;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    [class~="p-button-icon"] {
+        width: 30px;
+        height: 28px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    [class~="p-button-label"] {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,64 @@
+.GuestHeader{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 15px 0 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+
+    .ContLeft{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 9px;
+
+        .foryou{
+            .title{
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+
+        .Solutions{
+            .title{
+                font-size: 15px;
+            }
+        }
+    }
+
+    .InputSearch{
+       width: 606px; 
+    }
+    .ContRight{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .image{
+            width: 27px;
+            height: 40px;
+            margin-left: 11px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .ButtonAccount{
+            .textLogin{
+                padding: 0 10px;
+                font-size: 14px;
+            }
+        }
+
+        .CreateAccount{
+           font-size: 15px;  
+           button{
+            font-size: 15px;
+           }
+
+        }
+    }
+}

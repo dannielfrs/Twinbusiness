@@ -1,0 +1,102 @@
+.Soon{
+    width: 100%;
+    position: fixed;
+    background: #0000006E 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 1000;
+    padding: 26px 0;
+
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        justify-content: space-between;
+        height: 100vh;
+
+        .iconHome{
+            width: 55px;
+            height: 57px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .icons{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .close{
+                width: 42px;
+                height: 42px;
+                border-radius: 12px;
+                background: #F8F8FC 0% 0% no-repeat padding-box;
+                box-shadow: -4px -4px 10px #FFFFFF;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .text{
+                    font-size: 4px;
+                    color: #17181B;
+                }
+
+                .image{
+                    width: 32px;
+                    height: 27px;
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .delete{
+                width: 42px;
+                height: 42px;
+                border-radius: 12px;
+                background: #F8F8FC 0% 0% no-repeat padding-box;
+                box-shadow: -4px -4px 10px #FFFFFF;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .text{
+                    font-size: 4px;
+                    color: #17181B;
+                }
+
+                .image{
+                    width: 32px;
+                    height: 27px;
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    p{
+        font-size: 180px;
+        color: #ffffff;
+        text-align: center;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            font-size: 135px;
+        }
+    }
+}

@@ -1,0 +1,184 @@
+.ticket{
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .twinevents{
+        width: 124px;
+        height: 29px;
+        top: 15px;
+        position: absolute;
+        left: 35px;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .imageTicket{
+        width: 328px;
+        height: 423px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 250px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            object-fit: cover;
+        }
+    }
+
+    .circle{
+       background: #F8F8FC; 
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       position: absolute;
+       left: -23px;
+       bottom: 163px;
+       @media (min-width: 1024px) and (max-width: 1538px){
+        bottom: 115px;
+        left: -31px;
+       }
+    }
+    .circleRight{
+       background: #F8F8FC; 
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       position: absolute;
+       right: -23px;
+       bottom: 163px;
+       @media (min-width: 1024px) and (max-width: 1538px){
+        bottom: 113px;
+        right: 49px;
+       }
+    }
+    .contBottom{
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 2px dashed #696767;
+        padding: 0 9px 17px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 250px;
+        }
+
+        .title{
+           font-size: 25px;
+           font-weight: 600; 
+           color: #222222;
+           @media (min-width: 1024px) and (max-width: 1538px){
+            font-size: 20px;
+           }
+        }
+
+        .dateT{
+           font-size: 16px;
+           color: #000000; 
+           font-weight: 600;
+        }
+
+        .TextCode{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .bothText{
+               display: flex;
+               flex-direction: row; 
+               justify-content: space-between;
+               width: 100%;
+               gap: 10px;
+               .text{
+                 font-size: 16px;
+                 font-weight: 600;
+                 color: #696767;
+                 @media (min-width: 1024px) and (max-width: 1538px){
+                    font-size: 12px;
+                 }
+    
+                 label{
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #000000;
+                 }
+               }
+            }
+            .CodeQr{
+                width: 109px;
+                height: 109px;
+                @media (min-width: 1024px) and (max-width: 1538px){
+                    width: 36px;
+                    height: 36px;
+                }
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .date{
+            font-size: 16px;
+            color: #000000;
+            font-weight: 600;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .left{
+                .textDate{
+                   font-size: 8px;
+                   font-weight: 700; 
+                }
+
+                .start{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 5px;
+
+                    .textStart{
+                        font-size: 8px;
+                        font-weight: 700;
+                    }
+
+                    .dateText{
+                        font-size: 10px;
+                        color: #7A7A7A;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .right{
+               .textHour{
+                font-size: 8px;
+                font-weight: 700;
+               } 
+
+               .startHour{
+                font-size: 9px;
+                color: #7A7A7A;
+                font-weight: 700;
+               }
+               .endHour{
+                font-size: 9px;
+                color: #7A7A7A;
+                font-weight: 700;
+               }
+            }
+        }
+    }
+}

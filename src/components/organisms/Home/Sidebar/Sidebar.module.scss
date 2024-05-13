@@ -1,0 +1,95 @@
+.sidebar {
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 0;
+    z-index: 100;
+    background: #F8F8FC;
+
+    .sidebar_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 19px;
+        }
+
+        .sidebar_buttonback {
+            cursor: pointer;
+
+            img {
+                width: 100px;
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .tag {
+        margin-top: 27vh;
+    }
+
+    .sidebar_menu {
+        width: 55px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow: scroll;
+        padding: 3px;
+
+        .sidebar_menu_item {
+            width: 100%;
+            height: 45px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px #c7c6c6;
+            background: #FFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .title {
+                font-size: 6px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            img {
+                width: 100%;
+                height: 27px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+.noScroll {
+    *::-webkit-scrollbar {
+        width: 0 !important;
+        height: 0 !important;
+        box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07), inset -3px 3px 4px rgb(255 255 255);
+        border-radius: 10px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: transparent;
+        border: 1px solid 8px 4px 14px rgba(18, 18, 18, 0.07);
+        width: 0px !important;
+        border-radius: 20px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-image: unset !important;
+        border-radius: 10px;
+    }
+}

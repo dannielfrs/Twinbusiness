@@ -1,0 +1,142 @@
+.Profile {
+  background: #f8f8fc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 90px 60px 42px 90px;
+  width: 100%;
+
+  .adddiv {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    top: -10px;
+
+    p {
+      position: relative;
+      top: 10px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .CardProfile {
+    width: 100%;
+    padding: 10px 40px 40px;
+    height: 86vh;
+    overflow: scroll;
+
+    .section_header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .section_header_left {
+      width: 45%;
+    }
+
+    .section_header_right {
+      width: 55%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .title {
+      font-weight: 700;
+      font-size: 11px;
+    }
+  }
+
+  .spaces {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+
+    .Cards1 {
+      display: flex;
+      flex-direction: column;
+      width: 565px;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .Cards2 {
+      display: flex;
+      flex-direction: column;
+      width: 455px;
+      gap: 30px;
+    }
+
+    .Cards3 {
+      display: flex;
+      flex-direction: column;
+      width: 567px;
+      gap: 30px;
+    }
+  }
+
+  .graphics {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+
+    .grafica1 {
+      width: 50%;
+    }
+
+    .grafica2 {
+      width: 50%;
+    }
+  }
+}
+
+.noScroll {
+  *::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+      inset -3px 3px 4px rgb(255 255 255);
+    border-radius: 10px;
+  }
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiperslide {
+  width: 48% !important;
+}

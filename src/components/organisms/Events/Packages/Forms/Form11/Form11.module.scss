@@ -1,0 +1,316 @@
+.TicketEditor{
+    display: grid;
+    flex-direction: row;
+    // position: absolute;
+    top: 0;
+    background: #F8F8FC;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 45% 50%;
+    @media (min-width: 1024px) and (max-width: 1538px){
+      height: unset;
+    }
+
+    .contRight{
+        padding: 44px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+          padding: 15px 0px;
+        }
+
+        .title{
+            font-size: 43px;
+            font-weight: 700;
+            @media (min-width: 1024px) and (max-width: 1538px){
+              font-size: 25px;
+            }
+        }
+
+        .ticket{
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            @media (min-width: 1024px) and (max-width: 1538px){
+              gap: 10px;
+            }
+
+            .front{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 7px;
+
+              .title_front{
+                font-size: 30px;
+                font-weight: 700;
+                @media (min-width: 1024px) and (max-width: 1538px){
+                  font-size: 20px;
+                }
+              }  
+
+              .ticketFront{
+                width: 327px;
+                height: 647px;
+                border-style: dashed;
+                border: 3px dashed #000000;
+                border-radius: 24px;
+                // padding: 18px;
+                position: relative;
+                .imageTicket{
+                  width: 100%;
+                  height: 504px;
+                  object-fit: cover;
+                  border-radius: 20px;
+                }
+                @media (min-width: 1024px) and (max-width: 1538px){
+                  width: 249px;
+                  height: 512px;
+                  .imageTicket{
+                    height: 378px;
+                  }
+                }
+                .warning{
+                    color: #F52626;
+                    font-size: 16px;
+                  }
+                  
+                .contBottom{
+                  border-radius: 24px;
+                  width: 102%;
+                  height: 141px;
+                  border: 3px dashed #000000;
+                  position: absolute;
+                  left: -3px;
+                  bottom: -3px;
+                  padding: 1px 12px;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  @media (min-width: 1024px) and (max-width: 1538px){
+                    height: 133px;
+                    width: 103%;
+                    justify-content: space-between;
+                  }
+
+                  .left{
+                    width: 74%;
+
+                    .inputEvent{
+                      input{
+                        height: 25px;
+                        @media (min-width: 1024px) and (max-width: 1538px){
+                          height: 20px;
+                        }
+                      }
+                    }
+                    .startDate{
+                      display: flex;
+                      flex-direction: row;
+                      align-items: flex-end;
+                      gap: 6px;
+
+                      .titleStart{
+                        font-size: 8px;
+                        color: #000000;
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                  .ImageQR{
+                    width: 77px;
+                    height: 73px;
+                    @media (min-width: 1024px) and (max-width: 1538px){
+                      width: 35px;
+                      height: 35px;
+                    }
+
+                    img{
+                      width: 100%;
+                      height: 100%;
+                    }
+                  }
+                }
+              }
+            }
+
+            .back{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 7px;
+              position: relative;
+
+              .title_back{
+                font-size: 30px;
+                font-weight: 700;
+                @media (min-width: 1024px) and (max-width: 1538px){
+                  font-size: 20px;
+                }
+              }
+
+              .ticketBack{
+                width: 327px;
+                height: 647px;
+                border-style: dashed;
+                border: 3px dashed #000000;
+                border-radius: 24px;
+                padding: 7px 20px;
+                @media (min-width: 1024px) and (max-width: 1538px){
+                  width: 249px;
+                  height: 512px;
+                }
+
+                .bothButton{
+                  display: flex;
+                  justify-content: space-between;
+
+                  .buttonMap{
+                    button{
+                      height: 30px;
+                      @media (min-width: 1024px) and (max-width: 1538px){
+                        height: 20px;
+                      }
+                    }
+                  }
+                }
+
+                .inputs{
+                  input{
+                    height: 30px;
+                    @media (min-width: 1024px) and (max-width: 1538px){
+                      height: 20px;
+                    }
+                  }
+
+                  .inputCode{
+                    margin-bottom: 15px;
+                    @media (min-width: 1024px) and (max-width: 1538px){
+                      margin-bottom: unset;
+                    }
+                  }
+                }
+              }
+
+              .contBottom{
+                border-radius: 24px;
+                width: 100%;
+                height: 141px;
+                border: 3px dashed #000000;
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                padding: 13px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                @media (min-width: 1024px) and (max-width: 1538px){
+                  height: 92px;
+                  padding: 7px;
+                }
+
+                .input_text{
+                  height: 50px;
+                }
+
+                .ImageQR{
+                  width: 77px;
+                  height: 73px;
+                  margin-top: 14px;
+                  @media (min-width: 1024px) and (max-width: 1538px){
+                    width: 35px;
+                    height: 35px;
+                  }
+
+                  img{
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+        }
+
+        .excel{
+          width: 425px;
+          height: 188px;
+          border-radius: 24px;
+          margin-top: 30px;
+          padding: 24px 30px;
+          box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+
+          .textClose{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .close{
+              font-size: 18px;
+              font-weight: 700;
+              color: #000000;
+              cursor: pointer;
+
+              &:hover{
+                color: #0F83FF;
+              }
+            }
+
+            .formato{
+              font-size: 18px;
+              font-weight: 700;
+              color: #000000;
+            }
+          }
+
+          .uploadexcel{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+          }
+        }
+    }
+
+  .divButtons{
+      // height: 90px;
+      //position: fixed;
+      //bottom: 40px;
+      //right: 50px;
+     
+          .btns{
+              display: inline-block;
+              margin-left: 20px;
+              text-align: center;
+              position: relative;
+              font-size: 20px;
+              width: 230px;
+              button{
+                  font-weight: bold;
+              }
+              .labelnext{
+                  font-size: .8vw;
+                  font-weight: 300;
+                  position: absolute;
+                  top: -26px;
+                  right: 1px;
+                  /* z-index: 11; */
+                  width: 100%;
+              }
+        
+      }
+  }
+  .divButtonsStatic{
+      float: right;
+      margin-top: 50px;
+  }
+  .divButtonsAbsolute{
+      position: absolute;
+      right: 100px;
+      bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      align-items: flex-end;
+  }
+}

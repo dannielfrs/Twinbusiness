@@ -1,0 +1,54 @@
+.textAlign {
+    text-align: -webkit-center;
+    display: flex;
+    justify-content: center;
+}
+
+.tabsBtns {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background: #F8F8FC;
+    border-radius: 12px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 38px;
+    padding: 6px 9px;
+
+    .cont_tabs {
+        @media (min-width: 1024px) and (max-width: 1440px) {
+            width: 63px;
+        }
+    }
+}
+
+.cardIn {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+
+    label {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+
+.imageId {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.modal_loading {
+    width: 85%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 15px;
+    box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+    border-radius: 20px;
+}

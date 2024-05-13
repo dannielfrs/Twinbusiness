@@ -1,0 +1,107 @@
+.form {
+    width: 16.51vw;
+    max-height: 85vh;
+    position: absolute;
+    right: 3.8vw;
+    top: 90px;
+    padding: 1.39vh 0.78vw 3.39vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 101;
+
+    @media (max-width: 1000px) {
+        top: 6rem;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        width: 17.50vw;
+    }
+
+    .button_close {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-weight: 700;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .form_header {
+        width: 222px;
+        height: 48px;
+        margin-bottom: 9px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .title {
+        font-family: "Heebo", sans-serif;
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .form_body {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        width: 100%;
+        gap: 13px;
+
+        .form_input {
+            width: 100%;
+        }
+
+        .buttonLogin {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .ImageLogo {
+                width: 40px;
+                height: 40px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .Register {
+            height: 80px;
+            background: transparent;
+            box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+            border-radius: 0.73vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            .p1 {
+                font-size: 14px;
+            }
+
+            .p2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 6px;
+            }
+        }
+
+        .pass {
+            text-align: center;
+            font-size: 10px;
+            cursor: pointer;
+        }
+    }
+}

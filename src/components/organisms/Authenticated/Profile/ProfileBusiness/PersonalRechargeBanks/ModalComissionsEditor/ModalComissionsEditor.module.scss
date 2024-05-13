@@ -1,0 +1,141 @@
+.ModalComissionsEditor{
+    width: 100%;
+    position: fixed;
+    background: #C3C3C36E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 100;
+
+    .modalback {
+        border-radius: 20px;
+        padding: 5px;
+        background: hsla(0, 0%, 100%, .12);
+        border-right: 5px solid #e2e2e2;
+        box-shadow: 6px 2px 9px 0 hsla(0, 2%, 66%, .75);
+    }
+
+    .modal {
+        width: 900px;
+        height: 650px;
+        background: #F8F8FC;
+        border-radius: 25px;
+        padding: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 50px;
+        box-shadow: inset 5px 5px 3px #FFFFFF99, inset -5px -5px 3px #FFFFFF99;
+        position: relative;
+
+        .closed{
+            position: absolute;
+            top: 18px;
+            right: 30px;
+            font-size: 20px;
+            color: #626363;
+            cursor: pointer;
+        }
+        .CardCenter{
+           padding: 15px 30px; 
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           height: 100%;
+           gap: 25px;
+
+            .title{
+              font-size: 30px;
+              font-weight: 700;
+              color: #000;
+            }
+
+            .contProfile{
+                display: flex;
+                flex-direction: row;
+                padding: 23px 52px;
+                justify-content: space-between;
+                width: 476px;
+
+                .both{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .profile{
+                        width: 45px;
+                        height: 46px;
+                        border-radius: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+    
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 7px;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    .user{
+                        .name{
+                            font-size: 18px;
+                            font-weight: 700;
+                            color: #000;
+                        }
+    
+                        .email{
+                            font-size: 14px;
+                            color: #000;
+                        }
+                    }
+                }
+
+
+                .actions{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 17px;
+
+                    .logos{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                        img{
+                           width: 16px;
+                           height: 16px; 
+                        }
+                    }
+                }
+            }
+
+            .subtitle{
+                font-size: 15px;
+                color: #000;
+                width: 300px;
+                text-align: center;
+            }
+
+            .comission{
+                padding: 0 18px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 476px;
+                height: 47px;
+                align-items: center;
+
+                p{
+                  font-size: 17px;
+                  font-weight: bold;
+                }
+            }
+        }
+    }
+}

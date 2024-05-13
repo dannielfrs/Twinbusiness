@@ -1,0 +1,44 @@
+.alert{
+    text-align: center;
+    padding: 30px;
+    border-radius: 0.73vw;
+    background-color: #F8F8FC;
+    box-shadow: 6px 10px 10px rgba(223, 223, 223, 0.4666666667) !important;
+    border: unset !important;
+    width: 90%;
+    margin: 0 auto;
+    // width: 100%;
+    // margin: 0px !important;
+    // border-radius: 24px;
+    .divicon{
+        width: 40%;
+        margin: 0 auto;
+
+        .logos{
+            width: 100px;
+            margin: 0 auto;
+        }
+        .iconsuccess{
+            background: #1FA75E;
+            height: 70px;;
+            width: 70px;
+            margin: 0 auto;
+        }
+        .iconerror{
+            background: red;
+            height: 70px;;
+            width: 70px;
+            margin: 0 auto;
+        }
+    }
+    .divtitle{
+        width: 40%;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .divbtn{
+        width: 20%;
+        margin: 0 auto;
+    }
+}

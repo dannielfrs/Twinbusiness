@@ -1,0 +1,76 @@
+.Modal {
+  .content_modal {
+    position: absolute;
+    z-index: 111;
+    //border: 3px solid #0000002a;
+    border-radius: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 0.12);
+    border-right: 5px solid #e2e2e2;
+    box-shadow: 6px 2px 9px 0px rgb(171 167 167 / 75%);
+    .subcontent_modal {
+      background-color: #f8f8fc;
+      padding: 10px 20px;
+      border-radius: 20px;
+      // border: 7px solid rgb(255 255 255 / 50%);
+      // border-radius: 32px;
+      // padding: 10px 20px;
+
+      .divtitle {
+        text-align: center;
+        h1 {
+          color: #000000;
+          font-size: 24px;
+        }
+      }
+
+      .divBtns {
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        .btns {
+          display: inline-block;
+          margin-left: 20px;
+          text-align: center;
+          position: relative;
+        }
+      }
+      .pTB10 {
+        padding: 10px 0;
+      }
+      // .backgroundColorGray{
+      //     background-color: #F8F8FC;
+      //     padding: 80px;
+      //     border-radius: 24px;
+      // }
+    }
+  }
+  .small {
+    top: 20%;
+    width: 35%;
+    left: 32.5%;
+  }
+  .midSize {
+    top: 19%;
+    width: 45%;
+    left: 25%;
+    .subcontent_modal {
+      padding: 30px 70px;
+    }
+  }
+  .medium {
+    top: 15%;
+    width: 50%;
+    left: 25%;
+  }
+  .capa {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    background: rgb(255 255 255 / 0.12);
+    backdrop-filter: blur(5px);
+  }
+}

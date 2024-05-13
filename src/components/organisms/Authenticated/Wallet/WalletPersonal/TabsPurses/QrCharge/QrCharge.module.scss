@@ -1,0 +1,203 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 44px;
+    .QrCharge{
+        padding: 18px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+            padding: 18px 32px;
+        }
+        .title{
+           font-size: 40px;
+           color: #1C1C1C; 
+           @media (min-width: 1024px) and (max-width: 1538px){
+            text-align: center;
+           }
+        }
+    
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+            .TextInput{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                p{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+    
+            .ContButton{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 10px;
+            }
+        }
+
+        .textInputSearch{
+            margin-top: 10px;
+            .textSearch{
+                font-size: 16px;
+                width: 276px;
+                text-align: center;
+            }
+        }
+    }
+
+    .card2{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        .title{
+            font-size: 40px;
+            color: #000000;
+        }
+        .ImageQr{
+            width: 310px;
+            height: 310px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .ButtonScanner{
+            width: 268px;
+            height: 43px;
+        }
+    }
+
+    .card3{
+        padding: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        .title{
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .contCards{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            .cont1{
+                padding: 5px 14px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between; 
+                align-items: center;
+                border-radius: 12px;
+    
+                .flag{
+                    width: 30px;
+                    height: 18px;
+        
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+    
+                .both{
+                    display: flex;
+                    flex-direction: column;
+    
+                    .text1{
+                       font-size: 16px; 
+                       color: #000000;
+                    }
+    
+                    .text2{
+                        font-size: 14px;
+                        color: #878D96;
+                    }
+                }
+    
+                .numberCard{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+    
+                    .number{
+                        font-size: 14px;
+                        color: #878D96;
+                    }
+                }
+            }
+    
+            .cont2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 14px 56px;
+                gap: 8px;
+                @media (min-width: 1024px) and (max-width: 1538px){
+                    padding: 14px 19px;
+                }
+                .TextTotal{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 52px;
+    
+                    .text1{
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #000000;
+                    }
+                } 
+    
+                .number{
+                   font-size: 26px;
+                   color: #000000; 
+                   font-weight: 700;
+                   width: 70%;
+                   text-align: right;
+                }
+    
+                .container_code{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 6px;
+                    width: 239px;
+                    margin: 6px 0;
+                }
+
+                .ContButton{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .button{
+                       width: 284px;
+                       height: 40px; 
+                    }
+                }
+            }
+        }
+    }
+}

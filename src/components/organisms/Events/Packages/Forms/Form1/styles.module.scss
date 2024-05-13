@@ -1,0 +1,128 @@
+.ContForm {
+    display: grid;
+    flex-direction: row;
+    // position: absolute;
+    top: 0;
+    background: #F8F8FC;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 45% 50%;
+
+    .Form1 {
+        display: block;
+        padding: 70px 40px 0px;
+
+        @media (min-width: 1024px) and (max-width: 1538px) {
+            padding: 30px;
+        }
+
+        p {
+            font-size: 2vw;
+            font-weight: 300;
+        }
+
+        .aceptconditions {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 5% 90%;
+
+            .checkbox,
+            .description {
+                p {
+                    font-size: 1.2vw !important;
+                    font-weight: 400;
+
+                    a {
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+
+            .checkbox {
+                margin-top: 5px;
+            }
+
+            .description {
+                margin-bottom: 20px;
+            }
+        }
+
+        .indicationsLabel {
+            font-size: 1vw;
+        }
+    }
+
+    .divButtons {
+        .btns {
+            width: 240px;
+            margin-left: 20px;
+            text-align: center;
+            position: relative;
+            font-size: 20px;
+        }
+    }
+
+    .divButtonsStatic {
+        float: right;
+        margin-top: 50px;
+    }
+
+    .divButtonsAbsolute {
+        position: absolute;
+        right: 100px;
+        bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+.TermsAndConditions{
+    background: #F8F8FC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 90px 60px 42px 90px;
+
+    .cardTerms{
+        padding: 40px 115px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        .ButtonClose{
+            position: absolute;
+            top: 16px;
+            right: 38px;
+            .close{
+                font-weight: 700;
+                font-size: 23px;
+            }
+        }
+
+        .contTerms{
+            width: 680px;
+            height: 103px;
+            box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            font-size: 31px;
+            text-align: center;
+            padding: 0 55px;
+        }
+
+        .contText{
+            margin-top: 32px;
+            height: 64vh;
+            overflow-y: scroll;
+
+            .text{
+              font-size: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="779" viewBox="0 0 826 779">
+  <defs>
+    <clipPath id="clip-Web_1920_14">
+      <rect width="826" height="779"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_14" data-name="Web 1920 – 14" clip-path="url(#clip-Web_1920_14)">
+    <rect width="826" height="779" fill="#fff"/>
+    <g id="bookmark" transform="translate(155.354 132.828)">
+      <g id="bookmark-2" data-name="bookmark" transform="translate(0 -0.472)">
+        <rect id="Rectángulo_14136" data-name="Rectángulo 14136" width="516" height="516" transform="translate(-0.354 -0.356)" fill="#02080a" opacity="0"/>
+        <path id="Trazado_56602" data-name="Trazado 56602" d="M26.483,389.468A21.56,21.56,0,0,1,5.012,368V53.026A48.953,48.953,0,0,1,52.247,3H258.363A48.953,48.953,0,0,1,305.6,53.026V368a21.471,21.471,0,0,1-32.206,18.465l-121.737-68.92L37.218,386.247A21.471,21.471,0,0,1,26.483,389.468Z" transform="translate(102.34 79.641)" fill="#02080a"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="779" viewBox="0 0 826 779">
+  <defs>
+    <clipPath id="clip-Web_1920_18">
+      <rect width="826" height="779"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_18" data-name="Web 1920 – 18" clip-path="url(#clip-Web_1920_18)">
+    <rect width="826" height="779" fill="#fff"/>
+    <g id="Grupo_75753" data-name="Grupo 75753" transform="translate(143.249 268.287)">
+      <g id="Grupo_60378" data-name="Grupo 60378" transform="translate(5.064 11.435)">
+        <path id="Sustracción_121" data-name="Sustracción 121" d="M105.03,154.655H24a23.98,23.98,0,0,1-24-24V24A23.981,23.981,0,0,1,24,0h81.03V154.654Zm128.327,0h-104V0h104a23.981,23.981,0,0,1,24,24V130.654a23.98,23.98,0,0,1-24,24Z" transform="translate(273.439 33.408)" fill="#101514"/>
+        <path id="Sustracción_122" data-name="Sustracción 122" d="M113.6,154.655H27a26.977,26.977,0,0,1-27-27V27A26.978,26.978,0,0,1,27,0h86.6V154.654Zm132.835,0H137.379V0H246.436a26.978,26.978,0,0,1,27,27V127.654a26.978,26.978,0,0,1-27,27Z" transform="translate(0 33.406)" fill="#101514"/>
+        <rect id="Rectángulo_13978" data-name="Rectángulo 13978" width="273.438" height="221.472" rx="32" transform="translate(120.016 0)" fill="#101514"/>
+      </g>
+      <text id="nft_s" data-name="nft’s" transform="translate(142.402 147.163)" fill="#fff" font-size="81" font-family="Heebo-Bold, Heebo" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">NFT’S</tspan></text>
+    </g>
+  </g>
+</svg>

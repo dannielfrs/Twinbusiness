@@ -1,0 +1,60 @@
+.CardNotifications {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .Icon {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .ContText {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+
+        .title {
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+        }
+
+        .ButtonText {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .subtitle {
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+    }
+}

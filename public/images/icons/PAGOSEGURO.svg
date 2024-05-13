@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="779" viewBox="0 0 826 779">
+  <defs>
+    <clipPath id="clip-Web_1920_4">
+      <rect width="826" height="779"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_4" data-name="Web 1920 – 4" clip-path="url(#clip-Web_1920_4)">
+    <rect width="826" height="779" fill="#fff"/>
+    <g id="Grupo_75704" data-name="Grupo 75704" transform="translate(262.709 221.006)">
+      <path id="Trazado_56370" data-name="Trazado 56370" d="M252.768,1759.6a53.275,53.275,0,0,1-53.218-53.219v-33.164a7.97,7.97,0,1,1,15.939,0v33.164a37.278,37.278,0,1,0,74.557,0h0v-30.44a8.262,8.262,0,0,1-.515-2.724,8.022,8.022,0,0,1,8.022-7.971h.462a8.015,8.015,0,0,1,7.97,7.971v33.164A53.272,53.272,0,0,1,252.768,1759.6Zm-45.248-90.5a4.061,4.061,0,0,0-4.062,4.062h0v33.165a49.311,49.311,0,0,0,98.621,0v-33.165a4.111,4.111,0,0,0-4.063-4.062h-.462a4.064,4.064,0,0,0-4.114,4.012v.05a4.166,4.166,0,0,0,.308,1.593v31.622a41.135,41.135,0,1,1-82.269,0v-33.164A4.111,4.111,0,0,0,207.519,1669.107Z" transform="translate(-101.956 -1535.22)" fill="#fff"/>
+    </g>
+    <g id="Grupo_75710" data-name="Grupo 75710" transform="translate(191.646 246.75)">
+      <path id="Icon_material-payment" data-name="Icon material-payment" d="M402.027,6H47.336C22.73,6,3.222,21.886,3.222,41.7L3,255.885c0,19.812,19.73,35.7,44.336,35.7H402.027c24.607,0,44.336-15.885,44.336-35.7V41.7C446.364,21.886,426.634,6,402.027,6Zm0,249.885H47.336V148.791H402.027Zm0-178.489H47.336V41.7H402.027Z" transform="translate(-3 -6)"/>
+      <g id="Icon_feather-lock" data-name="Icon feather-lock" transform="translate(306.989 166.599)">
+        <path id="Trazado_56459" data-name="Trazado 56459" d="M11.64,16.5H61.616a7.14,7.14,0,0,1,7.14,7.14V48.628a7.14,7.14,0,0,1-7.14,7.139H11.64A7.14,7.14,0,0,1,4.5,48.628V23.64A7.14,7.14,0,0,1,11.64,16.5Z" transform="translate(-4.5 15.628)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+        <path id="Trazado_56460" data-name="Trazado 56460" d="M10.5,35.128V20.849a17.849,17.849,0,0,1,35.7,0V35.128" transform="translate(3.779 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      </g>
+      <text id="_" data-name="****" transform="translate(99.051 239.793)" font-size="75" font-family="Heebo-Bold, Heebo" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">****</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,171 @@
+/**
+ * Styles for base component
+ */
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  .titles_inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+      font-size: 10px;
+      font-weight: 700;
+      color: #000000;
+      margin-bottom: 0;
+    }
+
+    span {
+      font-size: 12px;
+      color: #a0a0a3;
+    }
+
+    .invalid_text {
+      color: #cf1515;
+    }
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    border: unset;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000000;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Heebo", sans-serif;
+    padding: 0.4vw 0.7vw;
+    border-radius: 0.73vw;
+    box-shadow: 3px 3px 3px rgba(223, 223, 223, 0.4666666667), -4px -4px 4px #FFFFFF !important;
+    border: none !important;
+    resize: none;
+
+    @media (min-width: 1024px) and (max-width: 1538px) {
+      font-size: 8px;
+    }
+
+    &::placeholder {
+      color: #9c9c9c;
+    }
+
+    &::placeholder {
+      letter-spacing: 1px;
+      font-family: 'Heebo', sans-serif;
+      color: gray !important;
+      font-size: 14px;
+      font-weight: 700;
+
+      @media (max-width: 1000px) {
+        font-size: 12px;
+      }
+    }
+
+    &:focus {
+      color: #85858d;
+      background-color: #f8f8fc !important;
+      outline: none !important;
+      outline-width: 0 !important;
+
+
+    }
+  }
+}
+
+/**
+ * Styles for read only input
+ */
+.readonly[class~='p-inputtext'] {
+  background-color: #fff;
+  cursor: default;
+  color: #000000;
+  font-weight: 700;
+  box-shadow: none;
+
+  &:focus {
+    border: 1px solid #d5d8e0;
+  }
+}
+
+.secondary {
+  .titles_inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: unset !important;
+    gap: 5px;
+
+    label {
+      font-size: 18px;
+      font-weight: 700;
+      color: #000000;
+      margin-bottom: 0;
+    }
+
+    span {
+      font-size: 10px;
+      color: #707070;
+    }
+
+    .invalid_text {
+      color: #cf1515;
+    }
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    border: unset;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #707070;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+    resize: none;
+
+    &:focus {
+      border: unset !important;
+      box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255) !important;
+      outline: 0;
+    }
+
+    &::placeholder {
+      color: #707070;
+      font-size: 21px;
+    }
+  }
+}
+
+/**
+ * Styles for disabled input
+ */
+.disabled[class~='p-inputtext'] {
+  color: #b8b8b8;
+}
+
+/**
+ * Styles for invalid input
+ */
+.invalid[class~='p-inputtext'] {
+  border: 1px solid #cf1515 !important;
+
+  &:hover {
+    border: 1px solid #cf1515 !important;
+  }
+
+  &:focus {
+    border: 1px solid #cf1515 !important;
+  }
+}
+
+.invalid_message {
+  font-size: 11px;
+  color: #cf1515;
+  margin-left: 5px;
+}

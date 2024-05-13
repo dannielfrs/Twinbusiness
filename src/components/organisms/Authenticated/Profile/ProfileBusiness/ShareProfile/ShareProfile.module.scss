@@ -1,0 +1,149 @@
+.ShareProfile {
+  background: #f8f8fc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 90px 60px 42px 90px;
+  width: 100%;
+
+  .adddiv {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    top: -10px;
+    p {
+      position: relative;
+      top: 10px;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .CardProfile {
+    // height: 86vh;
+    width: 100%;
+    padding: 10px 40px 40px;
+    height: 86vh;
+    overflow: scroll;
+
+    .titlediv {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 11px;
+    }
+
+    .divshare {
+      .card {
+        width: 100%;
+        background-color: #f8f8fc;
+        box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+          -2px -3px 4px rgb(255, 255, 255);
+        border-radius: 20px;
+
+        .title {
+          height: 40px;
+          background-color: #d3d3d3;
+          color: #212121;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+          //display: flex;
+          //align-items: center;
+          //justify-content: center;
+          font-weight: 700;
+          //font-size: 1.8vw;
+          .divTitle {
+            text-align: center;
+            padding-top: 5px;
+          }
+          .divText {
+            width: 80%;
+            padding: 5px 15px;
+          }
+        }
+      }
+      .container {
+        .carduser {
+          width: 100%;
+          background-color: #f8f8fc;
+          box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+            -2px -3px 4px rgb(255, 255, 255);
+          border-radius: 20px;
+
+          display: grid;
+          grid-template-columns: 30% 30% 30% 10%;
+          padding: 10px 15px;
+          margin-top: 10px;
+
+          .photodiv {
+            display: grid;
+            grid-template-columns: 30% 70%;
+
+            img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+
+          .divcontact {
+            font-size: 0.8vw;
+            p {
+              margin-bottom: 15px;
+            }
+          }
+          .actions {
+            text-align: right;
+            .logos {
+              display: flex;
+              margin-top: 5px;
+              img {
+                width: 20px;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .DivSocialMedias {
+      display: flex;
+      //align-items: center;
+      justify-content: flex-end;
+      padding-top: 30px;
+      .iconSM {
+        margin-left: 20px;
+        background-color: #f8f8fc;
+        box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+          -2px -3px 4px rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 5px;
+        img {
+          width: 40px;
+        }
+      }
+      .btn {
+        margin-left: 20px;
+      }
+    }
+  }
+  
+}
+
+.noScroll {
+  *::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+      inset -3px 3px 4px rgb(255 255 255);
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,219 @@
+/* Styles for base component */
+
+.fileupload {
+    width: 100%;
+    height: 60px;
+
+    .fileupload_labels {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+
+        label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #262d3f;
+            margin-bottom: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        div {
+            font-size: 12px;
+            color: #a0a0a3;
+            padding-right: 15px;
+        }
+    }
+
+    [class~="p-fileupload"] {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .fileupload_header {
+            width: 100%;
+            display: flex;
+            margin: 10px 0 15px 0;
+
+            .fileupload_choose {
+                height: 58px;
+                display: flex;
+                background-color: transparent;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+                color: #000000;
+                align-items: center;
+                
+
+                &:hover {
+                    background-color: transparent;
+                }
+
+                &:focus {
+                    background-color: transparent;
+                    box-shadow: none;
+                }
+
+                [class~="p-button-icon "] {
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                }
+
+                svg {
+                    display: none;
+                }
+            }
+        }
+
+        [class~="p-fileupload-content"] {
+            width: 100%;
+            height: 1%;
+            display: flex;
+            border: unset;
+            padding: 15px;
+            border-radius: 10px;
+            // overflow-y: auto;
+            background-color: transparent;
+
+            [class~="p-progressbar"] {
+                display: none;
+            }
+
+            >div:nth-child(3) {
+                width: 100%;
+                height: 100%;
+
+                [class~="p-fileupload-row"] {
+                    width: 100%;
+
+                    .fileupload_item {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 0;
+                        gap: 10px;
+                        flex-direction: column;
+                        position: absolute;
+                        top: 115px;
+                        right: -849px;
+                        z-index: 1000;
+
+                        .fileupload_item_icon {
+                            width: 809px;
+                            min-width: 40px;
+                            height: 421px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 10px;
+                            background-color: #ffffff;
+
+                            img {
+                                object-fit: cover;
+                                width: 809px;
+                                height: 421px;
+                            }
+
+                            i {
+                                width: 15px;
+                                height: 21px;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-position: center;
+                                font-size: 20px;
+                            }
+                        }
+
+                        .fileupload_item_content {
+                            width: 200px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #262d3f;
+                            text-align: start;
+
+                            div:nth-child(1) {
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+
+                        .fileupload_item_delete {
+                            width: 30px;
+                            height: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50%;
+                            background-color: #ffffff;
+                            margin-left: auto;
+                            border: none;
+                            cursor: pointer;
+
+                            &:hover {
+                                background-color: #f2f4f7;
+                            }
+
+                            &:focus {
+                                box-shadow: none;
+                            }
+
+                            [class~="p-button-icon"] {
+                                color: #b54141;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-position: center;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .textImage{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 34px;
+
+                .image{
+                  width: 55px;
+                  height: 59px;  
+                  img{
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+                .fileupload_empty {
+                    width: 100%;
+                    height: 87%;
+                    display: flex;
+                    gap: 15px;
+                    font-size: 14px;
+                    color: #000000;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+.readonly[class~="p-fileupload"] {
+    width: 100%;
+}
+
+.disabled[class~="p-fileupload"] {
+    width: 100%;
+}

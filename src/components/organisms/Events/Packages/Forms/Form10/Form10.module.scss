@@ -1,0 +1,144 @@
+.TicketType {
+    // position: absolute;
+    top: 0;
+    background: #F8F8FC;
+    padding: 60px 90px 110px 90px;
+    width: 100%;
+    min-height: 100vh;
+
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        padding: 22px 130px 40px 0;
+    }
+
+    .tableList {
+        width: 100%;
+        padding: 29px 93px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border: 7px solid #FFFFFF99;
+
+        .titles {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            p {
+                font-size: 35px;
+                font-weight: 700;
+
+                @media (min-width: 1024px) and (max-width: 1440px) {
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .newZonediv {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+            border: none;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .section_search {
+            display: flex;
+            justify-content: flex-end;
+
+            .TextButton {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                align-items: center;
+
+                .text {
+                    font-size: 25px;
+                    font-weight: 700;
+
+                    @media (min-width: 1024px) and (max-width: 1440px) {
+                        font-size: 20px;
+                    }
+                }
+
+                .buttonAdd {
+                    width: 48px;
+                    height: 44px;
+                    background: #000000;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 24px;
+                        color: #F8F8FC;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .divButtons {
+        // height: 90px;
+        //position: fixed;
+        //bottom: 40px;
+        //right: 50px;
+
+        .btns {
+            display: inline-block;
+            margin-left: 20px;
+            text-align: center;
+            position: relative;
+            font-size: 20px;
+            width: 230px;
+
+            button {
+                font-weight: bold;
+            }
+
+            .labelnext {
+                font-size: .8vw;
+                font-weight: 300;
+                position: absolute;
+                top: -26px;
+                right: 1px;
+                /* z-index: 11; */
+                width: 100%;
+            }
+
+        }
+    }
+
+    .divButtonsStatic {
+        float: right;
+        margin-top: 50px;
+    }
+
+    .divButtonsAbsolute {
+        position: absolute;
+        right: 100px;
+        bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: flex-end;
+    }
+}
+
+.table_column_image {
+    width: 100%;
+
+    img {
+        padding: 4px;
+        box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.219), -2px -3px 4px rgb(255, 255, 255);
+    }
+}

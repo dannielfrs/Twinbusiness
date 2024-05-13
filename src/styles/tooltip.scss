@@ -1,0 +1,43 @@
+/**
+ * Styles for top tooltip
+ */
+.p-tooltip.p-tooltip-top {
+    padding: 5px !important;
+
+    .p-tooltip-arrow {
+        border-left: 10px solid transparent;
+        border-right: 9px solid transparent;
+        border-top: 10px solid #545353;
+        transform: translateX(-50%);
+    }
+
+    .p-tooltip-text {
+        padding: 5px 10px;
+        background-color: #545353;
+        font-size: 16px;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+}
+
+/**
+ * Styles for left tooltip
+ */
+.p-tooltip.p-tooltip-left {
+    padding: 5px !important;
+
+    .p-tooltip-arrow {
+        border-left: 10px solid transparent;
+        border-right: 9px solid transparent;
+        border-top: 10px solid #545353;
+        transform: translateX(-50%);
+    }
+
+    .p-tooltip-text {
+        padding: 5px 10px;
+        background-color: #545353;
+        font-size: 16px;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+}

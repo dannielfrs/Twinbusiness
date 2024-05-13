@@ -1,0 +1,230 @@
+.AdminStaff {
+  background: #f8f8fc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 90px 60px 42px 90px;
+  width: 100%;
+  .CardProfile {
+    .header {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      padding: 20px;
+
+      .leffdiv {
+        width: 30%;
+        .divtitle {
+          width: 100%;
+          text-align: center;
+        }
+        .qrdiv {
+          //width: 25%;
+          //margin: 0 auto;
+          margin-top: 50px;
+          text-align: center;
+          img {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            border-radius: 10px;
+          }
+        }
+      }
+      .rightdiv {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-top: 50px;
+        .divadd {
+          width: 50%;
+          background-position: 50% 50% !important;
+          background-size: cover !important;
+          height: 230px;
+          border-radius: 20px;
+          padding: 25px 30px;
+
+          h2 {
+            color: #f8f8fc;
+            font-weight: 700;
+            font-size: 29px;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 18px;
+            color: #f8f8fc;
+          }
+
+          .btndiv {
+            margin-top: 10px;
+            width: 150px;
+          }
+        }
+      }
+    }
+    .divsearch {
+      //width: 98%;
+      //margin: 0 auto;
+      //padding: 10px 15px;
+
+      .inputdiv {
+        width: 20%;
+        float: right;
+        position: relative;
+        right: 120px;
+        margin-bottom: 20px;
+      }
+    }
+    .tablediv {
+      /*box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+        inset -3px 3px 4px rgb(255 255 255);*/
+      box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+        -2px -3px 4px rgb(255, 255, 255);
+      border-radius: 10px;
+      padding: 10px 55px;
+      width: 98%;
+      margin: 0 auto;
+      margin-top: 30px;
+
+      .header {
+        width: 100%;
+        background: #b4b5ba;
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        .leftdiv {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          color: #f8f8fc;
+          width: 50%;
+          img {
+            width: 80px;
+            height: 80px;
+          }
+          h2 {
+            font-size: 29px;
+          }
+          p {
+            font-size: 19px;
+          }
+        }
+        .rightdiv {
+          position: relative;
+          top: -20px;
+          text-align: center;
+          color: #f8f8fc;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          .sharemenu {
+            position: absolute;
+            right: 0px;
+            top: 10px;
+            img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+          h2 {
+            font-size: 32px;
+          }
+          .schedulesdiv {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            .schedule {
+              width: 50%;
+              text-align: center;
+
+              label {
+                font-size: 22px;
+              }
+            }
+          }
+        }
+      }
+
+      .content {
+        .statusdiv {
+          background: #fc0d1b;
+          color: #fff;
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          padding: 10px;
+          div {
+            width: 50%;
+            label {
+              font-size: 29px;
+            }
+          }
+          .valuestatus {
+            text-align: right;
+          }
+        }
+        .historydiv {
+          .header {
+            background: #dedfe4;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+            color: #000;
+            label {
+              font-size: 29px;
+            }
+          }
+          .history {
+            .historyitem {
+              padding: 10px 15px;
+              display: flex;
+              flex-direction: row;
+              gap: 20px;
+              .left {
+                width: 50%;
+              }
+              .right {
+                width: 50%;
+                text-align: right;
+              }
+              label {
+                font-size: 29px;
+              }
+            }
+          }
+        }
+
+        .footer {
+          .charsediv {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 20px 30px;
+            div {
+              width: 50%;
+              text-align: center;
+            }
+          }
+          .chardistance {
+            padding: 20px 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.noScroll {
+  *::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+      inset -3px 3px 4px rgb(255 255 255);
+    border-radius: 10px;
+  }
+}

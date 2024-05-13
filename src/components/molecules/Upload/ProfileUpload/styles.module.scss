@@ -1,0 +1,103 @@
+.fileupload {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    .fileupload_label {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 0;
+    }
+
+    .fileupload_content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 2px solid #000000;
+        background-color: #f8f8fc;
+        cursor: pointer;
+
+        .fileupload_input_hidden {
+            display: none;
+        }
+
+        .fileupload_image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .fileupload_delete {
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #cf5b5b;
+            color: #ffffff;
+            cursor: pointer;
+
+            i {
+                font-size: 13px;
+            }
+        }
+
+        .fileupload_empty {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            color: #000000;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .fileupload_edit {
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background-color: #000000;
+                color: #ffffff;
+                cursor: pointer;
+
+                i {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .invalid {
+        border: 1px solid red;
+    }
+
+    .invalid_message {
+        font-family: Tahoma;
+        font-size: 11px;
+        color: #cf1515;
+        margin-left: 5px;
+    }
+}

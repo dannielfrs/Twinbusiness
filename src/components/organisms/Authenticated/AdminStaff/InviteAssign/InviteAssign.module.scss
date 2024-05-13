@@ -1,0 +1,274 @@
+.AdminStaff {
+  background: #f8f8fc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 90px 60px 42px 90px;
+  width: 100%;
+  .CardProfile {
+    .header {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      padding: 20px;
+
+      .leffdiv {
+        width: 30%;
+        .divtitle {
+          text-align: center;
+        }
+        .infodate {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+            -2px -3px 4px rgb(255, 255, 255);
+          border-radius: 10px;
+          padding: 10px 15px;
+          .picture {
+            img {
+              width: 80px;
+              height: 80px;
+            }
+          }
+          .description {
+            .titlep {
+              font-size: 22px;
+              font-weight: 700;
+            }
+            .dates {
+              display: flex;
+              flex-direction: row;
+              gap: 50px;
+              margin-top: 7px;
+
+              div {
+                margin-bottom: 7px;
+              }
+            }
+          }
+        }
+        .divsearch {
+          margin-top: 30px;
+          p {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+      }
+      .rightdiv {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-top: 50px;
+        .divadd {
+          width: 50%;
+          background-position: 50% 50% !important;
+          background-size: cover !important;
+          height: 230px;
+          border-radius: 20px;
+          padding: 25px 30px;
+
+          h2 {
+            color: #f8f8fc;
+            font-weight: 700;
+            font-size: 29px;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 18px;
+            color: #f8f8fc;
+          }
+
+          .btndiv {
+            margin-top: 10px;
+            width: 150px;
+          }
+        }
+      }
+    }
+    .tablediv {
+      /*box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+        inset -3px 3px 4px rgb(255 255 255);*/
+      box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+        -2px -3px 4px rgb(255, 255, 255);
+      border-radius: 10px;
+      padding: 10px 55px;
+      width: 98%;
+      margin: 0 auto;
+      margin-top: 20px;
+
+      .form {
+        box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+          -2px -3px 4px rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 10px 55px;
+
+        .carduser {
+          width: 100%;
+          background-color: #f8f8fc;
+          box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+            -2px -3px 4px rgb(255, 255, 255);
+          border-radius: 20px;
+          position: relative;
+
+          display: grid;
+          grid-template-columns: 30% 30% 30% 10%;
+          padding: 10px 15px;
+          margin-top: 20px;
+
+          .photodiv {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            img {
+              width: 70px;
+              height: 70px;
+              border-radius: 10px;
+              border: 1px solid #f8f8fc;
+            }
+          }
+
+          .divcontact {
+            font-size: 0.8vw;
+            p {
+              margin-bottom: 15px;
+            }
+          }
+          .actions {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            text-align: right;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            .iconrefesh {
+              img {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+
+      .asing {
+        .divheader {
+          width: 30%;
+          margin: 0 auto;
+          text-align: center;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          .inputs {
+            margin-top: 10px;
+          }
+        }
+      }
+      .contenbox {
+        //height: 14vh;
+        //overflow-y: scroll;
+
+        .checkboxdiv {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          width: 100%;
+          margin-bottom: 20px;
+
+          box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+            -2px -3px 4px rgb(255, 255, 255);
+          border-radius: 10px;
+          padding: 10px 55px;
+          .checkboxdivinput {
+            width: 3%;
+            box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07),
+              -2px -3px 4px rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 5px 5px;
+            text-align: center;
+            .check {
+              position: relative;
+              top: 5px;
+              margin: 0 auto;
+            }
+          }
+          .labeldiv {
+            width: 40%;
+            p {
+              font-size: 29px;
+              font-weight: 700;
+            }
+          }
+          .commendiv {
+            width: 30%;
+            padding-top: 10px;
+            label {
+              color: gray;
+            }
+          }
+        }
+      }
+      .divbtninvite {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.menuactions {
+  ul {
+    li {
+      margin-bottom: 20px;
+      a {
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.noScroll {
+  *::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+      inset -3px 3px 4px rgb(255 255 255);
+    border-radius: 10px;
+  }
+}
+
+.divmodal {
+  .titlediv {
+    text-align: center;
+
+    img {
+      width: 150px;
+      height: 170px;
+    }
+
+    .btndiv {
+      width: 30%;
+      margin: 0 auto;
+    }
+  }
+  .bg {
+    margin-top: 20px;
+
+    .divbtns {
+      width: 40%;
+      //float: right;
+
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      //gap: 30px;
+
+      position: absolute;
+      right: 30px;
+      bottom: 70px;
+    }
+  }
+}

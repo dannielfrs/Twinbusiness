@@ -1,0 +1,124 @@
+.QrCash{
+    width: 100%;
+    position: fixed;
+    background: #C3C3C36E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 100;
+
+    .modalback {
+        border-radius: 20px;
+        padding: 5px;
+        background: hsla(0, 0%, 100%, .12);
+        border-right: 5px solid #e2e2e2;
+        box-shadow: 6px 2px 9px 0 hsla(0, 2%, 66%, .75);
+    }
+
+    .modal {
+        width: 900px;
+        height: 650px;
+        background: #F8F8FC;
+        border-radius: 25px;
+        padding: 90px 113px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 50px;
+        box-shadow: inset 5px 5px 3px #FFFFFF99, inset -5px -5px 3px #FFFFFF99;
+        position: relative;
+
+        .cardQr{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+
+            .title{
+                font-size: 40px;
+                font-weight: 700;
+            }
+    
+            .qr{
+                width: 270px;
+                height: 270px;
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+    
+            .circle{
+                width: 31px;
+                height: 31px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: inset 5px 5px 3px #FFFFFF99, inset -5px -5px 3px #FFFFFF99;
+                position: absolute;
+                right: 58px;
+                cursor: pointer;
+                top: 28px;
+            }
+        }
+
+        .containers{
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+
+            .contDownload{
+                width: 167px;
+                height: 48px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                border-radius: 12px;
+                box-shadow: 0px 1px 6px rgba(0,0,0,0.16);
+
+                p{
+                    color: #696969;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            .contPrint{
+                width: 167px;
+                height: 48px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                background: #000000;
+                border-radius: 12px;
+                
+                p{
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}

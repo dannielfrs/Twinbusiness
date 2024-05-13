@@ -1,0 +1,132 @@
+.ContForm8{
+    display: grid;
+    flex-direction: row;
+    // position: absolute;
+    top: 0;
+    background: #F8F8FC;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 45% 50%;
+
+    .Form2{
+        margin-bottom: 70px;
+        padding: 70px 0 10px;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            padding: 20px 0 0; 
+        }
+        .divtitle{
+            text-align: left;
+            margin-bottom: 20px;
+            h2{
+                font-size: 2vw;
+            }
+        }
+        .row4{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            //margin-top: 20px;
+            padding: 10px;
+        }
+        .row3{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            //margin-top: 20px;
+            margin: 2px;
+        }
+    
+    
+        .row2{
+            display: grid;
+            grid-template-columns: 49% 2% 49%;
+            //margin-top: 20px;
+            padding: 10px;
+        }
+    
+        .row1{
+            display: grid;
+            grid-template-columns: 100%;
+            //margin-top: 20px;
+            padding: 10px;
+    
+            
+        }
+    
+        .col{
+            margin: 0px 5px;
+        }
+    
+    
+        .inputText{
+            margin-top: 20px;
+        }
+        .input_text{
+            height: 50px;
+            margin-bottom: 70px;
+        }
+    
+        .divCheckbox, .divRadio{
+            font-family: "Heebo", sans-serif;
+            padding: 0.4vw 0.7vw;
+            border-radius: 0.73vw;
+            background-color: transparent;
+            box-shadow: 3px 3px 3px rgba(223, 223, 223, 0.4666666667), -4px -4px 4px #FFFFFF !important;
+            border: unset !important;
+            color: gray !important;
+            font-size: 12px;
+            font-weight: 700;
+            //width: 100%;
+            
+    
+            //margin-bottom: 35px;
+        }
+
+        .customLabelSeleccione{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+    }
+
+    .divButtons{
+        // height: 90px;
+        //position: fixed;
+        //bottom: 40px;
+        //right: 50px;
+       
+            .btns{
+                display: inline-block;
+                margin-left: 20px;
+                text-align: center;
+                position: relative;
+                font-size: 20px;
+                width: 230px;
+                button{
+                    font-weight: bold;
+                }
+                .labelnext{
+                    font-size: .8vw;
+                    font-weight: 300;
+                    position: absolute;
+                    top: -26px;
+                    right: 1px;
+                    /* z-index: 11; */
+                    width: 100%;
+                }
+          
+        }
+    }
+    .divButtonsStatic{
+        float: right;
+        margin-top: 50px;
+    }
+    .divButtonsAbsolute{
+        position: absolute;
+        right: 100px;
+        bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: flex-end;
+    }
+}

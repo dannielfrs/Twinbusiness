@@ -1,0 +1,32 @@
+.NavEventsPackages{
+    position: fixed;
+    width: 60px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: #F8F8FC;
+    padding: 20px 0px;
+
+    .logo, .icon{
+        display: block;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+    .logo{
+        width: 80%;
+        padding-bottom: 40px;
+    }
+    .icon{
+        width: 100%;
+    }
+
+    .line{
+        position: relative;
+        top: calc(100% - 80%);
+        height: 30px;
+        width: 5px;
+        background-color: #000;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+}

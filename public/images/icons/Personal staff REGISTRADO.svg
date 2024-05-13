@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="779" viewBox="0 0 826 779">
+  <defs>
+    <clipPath id="clip-Web_1920_33">
+      <rect width="826" height="779"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_33" data-name="Web 1920 – 33" clip-path="url(#clip-Web_1920_33)">
+    <rect width="826" height="779" fill="#fff"/>
+    <g id="Grupo_75807" data-name="Grupo 75807" transform="translate(14041 22152)">
+      <g id="Grupo_75805" data-name="Grupo 75805" transform="translate(-7768.919 263.343)">
+        <path id="Trazado_59123" data-name="Trazado 59123" d="M1314.877,368.22h-32.729a84.71,84.71,0,0,1,5.277,29.207V521.018a36.736,36.736,0,0,1-2.16,12.17h54.086a36.514,36.514,0,0,0,36.508-36.511V428.934A61.111,61.111,0,0,0,1314.877,368.22Z" transform="translate(-7023.155 -22384.676)" fill="#191c23"/>
+        <path id="Trazado_59124" data-name="Trazado 59124" d="M1346.395,397.427a87.994,87.994,0,0,1,5.139-29.207h-32.582A61.249,61.249,0,0,0,1257.83,429.2v67.61a36.639,36.639,0,0,0,36.646,36.644h54.084a36.788,36.788,0,0,1-2.166-12.17Z" transform="translate(-7327.696 -22384.676)" fill="#191c23"/>
+        <path id="Trazado_59125" data-name="Trazado 59125" d="M132.118.089,57.586,4.227A61.125,61.125,0,0,0,.089,68.51l6.857,123.4a12.163,12.163,0,0,0,12.832,11.466h0l172-9.56A12.173,12.173,0,0,0,203.257,181h0l-6.87-123.4A61.1,61.1,0,0,0,132.118.089Z" transform="translate(-5953.367 -22055.41) rotate(3)" fill="#191c23"/>
+        <path id="Trazado_59126" data-name="Trazado 59126" d="M1341.578,353.91a73.424,73.424,0,1,0,73.291,73.56v-.136A73.546,73.546,0,0,0,1341.578,353.91Z" transform="translate(-7200.102 -22563.861)" fill="#191c23"/>
+        <path id="Trazado_59127" data-name="Trazado 59127" d="M1312.244,359a54.9,54.9,0,0,0,0,109.663,52.475,52.475,0,0,0,21.631-4.462,54.744,54.744,0,0,0,33.537-50.3,54.9,54.9,0,0,0-54.9-54.9Z" transform="translate(-7299.621 -22500.113)" fill="#191c23"/>
+        <path id="Trazado_59128" data-name="Trazado 59128" d="M1333.867,359.066a54.765,54.765,0,0,0-21.5,105.2,52.333,52.333,0,0,0,21.5,4.461,54.9,54.9,0,1,0,5.451-109.663A52.589,52.589,0,0,0,1333.867,359.066Z" transform="translate(-7063.381 -22500.203)" fill="#191c23"/>
+      </g>
+      <text id="STAFF" transform="translate(-13720 -21663)" fill="#f8f8fc" font-size="60" font-family="Heebo-Bold, Heebo" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">STAFF</tspan></text>
+    </g>
+  </g>
+</svg>

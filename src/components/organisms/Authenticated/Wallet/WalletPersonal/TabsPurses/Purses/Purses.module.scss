@@ -1,0 +1,841 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 44px;
+    
+    .card1{
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 478px;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+        .title{
+            font-size: 40px;
+            color: #1C1C1C;
+            @media (min-width: 1024px) and (max-width: 1538px){
+                text-align: center;
+            }
+        }
+        .subtitle{
+            font-size: 20px;
+            color: #000;
+        }
+        .image{
+            width: 406px;
+            height: 256px;
+            @media (min-width: 1024px) and (max-width: 1538px){
+                width: 280px;
+                height: 180px;
+            }
+            
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .textBottom{
+            font-size: 18px;
+            color: #000;
+            text-align: center;
+
+            a{
+                text-decoration: underline !important;
+            }
+        }
+    }
+
+    .card2{
+       padding: 26px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 20px; 
+       height: 478px;
+       @media (min-width: 1024px) and (max-width: 1538px){
+        width: 33%;
+       }
+
+        .title{
+            font-size: 30px;
+            color: #000;
+        }
+
+       .image{
+        width: 319px;
+        height: 361px;
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+       }
+
+       .textBottom{
+        font-size: 18px;
+        color: #000;
+        text-align: center;
+       }
+    }
+    .Cardqr{
+        padding: 13px 42px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 17px;
+
+        .title{
+            font-size: 40px;
+            color: #000;
+        }
+
+        .ContProfile{
+           display: flex;
+           flex-direction: column;
+           width: 471px;
+           gap: 5px;
+           
+           p{
+             font-size: 13px;
+           }
+
+           .CardUser{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 8px 25px;
+            gap: 15px;
+            border-radius: 12px;
+            .ContUser{
+             position: relative;
+             .imgUser{
+                 width: 50px;
+                 height: 50px;
+                 border-radius: 10px;
+                 @media (min-width: 1024px) and (max-width: 1440px){
+                     width: 35px;
+                     height: 37px;
+                 }
+     
+                 img{
+                     width: 100%;
+                     height: 100%;
+                     object-fit: cover;
+                     border-radius: 9px;
+                 }
+             }
+     
+             .nationality{
+                 width: 17px;
+                 height: 17px;
+                 position: absolute;
+                 top: -8px;
+                 right: -6px;
+                 img{
+                     object-fit: cover;
+                     width: 100%;
+                     height: 100%;
+                     border-radius: 5px;
+     
+                 }
+             }
+            }
+ 
+            .dataUser{
+              .name{
+                 font-size: 16px;
+                 font-weight: 700;
+                 color: #000;
+              }
+              .email{
+                 font-size: 10px;
+                 color: #000;
+              }
+            }
+           }
+        }
+
+        .InputTextCode{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+
+            .text{
+                font-size: 13px;
+                text-align: center;
+            }
+            .container_code{
+                display: flex;
+                flex-direction: row;
+                gap: 6px;
+                width: 239px;
+            }
+        }
+    }
+    .CardQrRetiro{
+        padding: 13px 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        .title{
+            font-size: 30px;
+            color: #000;
+        }
+        .text{
+            font-size: 18px;
+            color: #707070;
+            text-align: center;
+        }
+        .image{
+            width: 319px;
+            height: 286px;
+            
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .card3{
+        display: flex;
+        align-items: center;
+        padding: 18px 13px;
+        flex-direction: column;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        .title{
+            font-size: 40px;
+            color: #000;
+        }
+
+        .containerCards{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            .numberCard{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 4px 18px 7px 31px;
+                align-items: center;
+                border-radius: 12px;
+    
+                .text{
+                    font-size: 14px;
+                    color: #000;
+                    font-weight: 700;
+                }
+    
+                .NumberCopy{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 21px; 
+    
+                    .ContCopy{
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .number{
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #000;
+                }
+    
+            }
+    
+            .stpCard{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 4px 18px 7px 31px;
+                align-items: center;
+                border-radius: 12px;
+    
+                .text{
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #000;
+                }
+    
+                .NumberCopy{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 21px;
+    
+                    .number{
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #000;
+                    }
+    
+                    .ContCopy{
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+    
+            .contBalance{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 5px;
+    
+                .title{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+    
+                .AvailableBalance{
+                        display: flex;
+                        flex-direction: row;
+                        padding: 8px 26px;
+                        width: 100%;
+                        gap: 25px;
+                        justify-content: flex-end;
+                        border-radius: 12px;
+        
+                        .money{
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+        
+                        .text{
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        img{
+                            cursor: pointer;
+                        }
+                }
+            }
+        }
+    }
+
+    
+    .CardShare{
+        padding: 17px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .search{
+           width: 100%;
+        }
+        .title{
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .textSearch{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .share{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            height: 19vh;
+            overflow: scroll;
+            overflow-x: unset;
+            .CardContact{
+                display: flex;
+                flex-direction: row;
+                padding: 15px 14px 15px 26px;
+                align-items: center;
+                justify-content: space-between;
+    
+                .ContInfo{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 30px;
+                    align-items: center;
+                    .image{
+                        width: 47px;
+                        height: 47px; 
+                        background: #fff;
+                        padding: 5px;
+                        border-radius: 24px;
+        
+                        img{
+                            width: 100%;
+                            height: 100%; 
+                            object-fit: cover;
+                            border-radius: 7px;
+                        }
+                    }
+        
+                    .info{
+                        .name{
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: #000;
+                        }
+        
+                        .id{
+                            font-size: 10px;
+                            color: #000;
+                        }
+                    }
+                }
+    
+                .contCheckImages{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+    
+                    .twin{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                        .logo{
+                            width: 18px;
+                            height: 18px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+    
+                        .imagetwin{
+                            width: 18px;
+                            height: 18px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .ButtonShare{
+            width: 268px;
+        }
+        .ContSocialMedia{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            div{
+                width: 59px;
+                height: 59px;
+                border-radius: 20px;
+                box-shadow: -10px -10px 20px #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    .noScroll {
+        *::-webkit-scrollbar {
+          width: 0;
+          height: 0;
+          box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+            inset -3px 3px 4px rgb(255 255 255);
+          border-radius: 10px;
+        }
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .movements{
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+
+        p{
+            font-size: 20px;
+            color: #878D96;
+        }
+    }
+
+    .fondear{
+        display: flex;
+        align-items: center;
+        padding: 18px 67px;
+        flex-direction: column;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        *::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+            box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07),
+              inset -3px 3px 4px rgb(255 255 255);
+            border-radius: 10px;
+        }
+        .title{
+            font-size: 40px;
+            color: #000;
+        }
+
+        .bank{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 4px;
+
+            .title{
+               font-size: 18px;
+               font-weight: bold; 
+            }
+
+            .contAccount2{
+                width: 100%;
+                height: 40px;
+                box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                padding: 0 14px;
+
+                p{
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+
+            .cardsSave{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title{
+                   font-size: 23px;
+                   font-weight: 700;
+                }
+                .containers{
+                    width: 100%;
+                    height: 102px;
+                    overflow: scroll;
+                    overflow-x: unset;
+                    .contAccount{
+                        width: 100%;
+                        height: 40px;
+                        box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+                        border-radius: 12px;
+                        display: flex;
+                        align-items: center;
+                        padding: 0 14px;
+                        margin-bottom: 15px;
+                        flex-direction: row;
+                        justify-content: space-between;
+                       p{
+                        color: #575F6BB3;
+                        font-size: 16px;
+                        font-weight: 500;
+                       }
+                    }
+                }
+            }
+
+        }
+        .NewCard{
+            width: 266px;
+            height: 43px;
+        }
+    }
+
+    .monederoMxn{
+        padding: 17px 54px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+        
+        .title{
+            font-size: 40px;
+            color: #000000;
+            @media (min-width: 1024px) and (max-width: 1538px){
+                text-align: center;
+            }
+        }
+
+        .cont1{
+            padding: 5px 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+            align-items: center;
+            border-radius: 12px;
+
+            .flag{
+                width: 30px;
+                height: 18px;
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .both{
+                display: flex;
+                flex-direction: column;
+
+                .text1{
+                   font-size: 16px; 
+                   color: #000000;
+                }
+
+                .text2{
+                    font-size: 14px;
+                    color: #878D96;
+                }
+            }
+
+            .numberCard{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                .number{
+                    font-size: 14px;
+                    color: #878D96;
+                }
+            }
+        }
+
+        .contCommission{
+            width: 100%;
+            .titleCommission{
+                font-size: 18px;
+                font-weight: 700;
+                width: 100%;
+            }
+            .commission{
+                display: flex;
+                padding: 0 13px;
+                height: 40px;
+                align-items: center;
+                border-radius: 12px;
+                justify-content: space-between;
+                
+                .text1{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+    
+                .text2{
+                    font-size: 13px;
+                }
+    
+                .text3{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .Limit{
+            width: 100%;
+            .contLimit{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                height: 40px;
+                padding: 0 13px;
+                border-radius: 12px;
+    
+                .textLimit{
+                  font-size: 16px;
+                  font-weight: 700;
+                } 
+            }
+        }
+
+        .amount{
+            width: 100%;
+            .title{
+               font-size: 18px;
+               font-weight: 700; 
+            }
+            .CardMonto{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end; 
+                height: 40px;
+                border-radius: 12px;
+                align-items: center;
+                padding: 0 13px;
+                gap: 21px;
+    
+                p{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .InputTextCode{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+
+            .text{
+               font-size: 13px;
+               color: #000; 
+            }
+
+            .container_code{
+                display: flex;
+                flex-direction: row;
+                gap: 6px;
+                width: 239px;
+            }
+        }
+
+        .NewCard{
+            width: 266px;
+            height: 43px;
+        }
+    }
+
+    .newCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        .title{
+            font-size: 40px;
+            color: #000;
+        }
+
+        .contCard{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+
+            .titleNumber{
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .numberCard{
+                display: flex;
+                flex-direction: row-reverse;
+                height: 40px;
+                border-radius: 10px;
+                align-items: center;
+                padding: 0 15px;
+
+                .number{
+                    letter-spacing: 7.5px;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+
+            .contExpire{
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+
+                .cont1{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+                }
+                .cont2{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+                }
+            }
+
+            .CreditCard{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+
+                p{
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                .CardTwin{
+                    width: 275px;
+                    height: 168px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            width: 84%;
+            justify-content: space-between;
+
+            .button1{
+                height: 43px;
+                width: 197px;
+            }
+
+            .button2{
+                height: 43px;
+                width: 197px;
+            }
+        }
+    }
+}

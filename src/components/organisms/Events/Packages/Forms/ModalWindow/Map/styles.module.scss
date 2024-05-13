@@ -1,0 +1,13 @@
+.Map{
+    position: relative;
+    width: 100%;
+    
+    .divheader{
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+    }
+
+    .mapdiv{
+        margin-top: 30px;
+    }
+}

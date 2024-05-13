@@ -1,0 +1,144 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  position: relative;
+
+  .titles_inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .icon_right {
+    position: absolute;
+    right: 6%;
+    width: 24px;
+    height: 24px;
+    top: 16%;
+    z-index: 10;
+    font-size: 12px;
+    color: #a0a0a3;
+    text-align: right;
+    cursor: pointer;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .icon_right_invalid{
+    position: absolute;
+    right: 6%;
+    width: 24px;
+    height: 24px;
+    top: 16%;
+    z-index: 10;
+    font-size: 12px;
+    color: #a0a0a3;
+    text-align: right;
+    cursor: pointer;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  label {
+    font-size: 8px;
+    color: #000000;
+    font-weight: 700;
+  }
+  
+  .invalidSpan{
+    color: #cf1515;
+    font-weight: bold;
+  }
+  span{
+    font-size: 12px;
+    color: #a0a0a3;
+    text-decoration: none solid rgb(160, 160, 163);
+    text-align: left;
+  }
+
+  input[class~="p-inputtext"] {
+    width: 100%;
+    height: 36px;
+    border-radius: 0.73vw;
+    padding: 0 1.25vw;
+    border: unset;
+    // font-size: 14px;
+    color: #000000;
+    background-color: transparent;
+    box-shadow: 3px 3px 3px #dfdfdf77, -4px -4px 4px #FFFFFF !important;
+    cursor: pointer;
+
+    font-size: 0.729vw;
+    border: unset !important;
+
+    &::placeholder {
+      font-size: 0.729vw !important;
+      color: #000 !important;
+      font-weight: bold;
+    }
+    // &:focus {
+    //   border: 1px solid #000000;
+    //   box-shadow: none;
+    //   outline: 0;
+    // }
+    &::placeholder {
+      color: #000000;
+      // font-size: 14px;
+      font-weight: 700;
+    }
+    @media screen and (min-width: 1000px) and (max-width: 1538px) {
+      font-size: 16px;
+    }
+  }
+
+   /* Styles for hide arrows in number type input */
+ 
+
+   /* Styles for invalid input */
+
+  .invalid[class~="p-inputtext"] {
+    border: 1px solid #cf1515;
+
+    &:hover {
+      border: 1px solid #cf1515;
+    }
+
+    &:focus {
+      border: 1px solid #cf1515;
+    }
+  }
+
+  /* Styles for read only input */
+
+  .readonly[class~="p-inputtext"] {
+    border: unset;
+    background-color: #fff;
+    box-shadow: unset !important;
+    
+    &:focus {
+      border: 1px solid #c5d4cb;
+    }
+  }
+
+  /* Styles for disabled input */
+
+  .disabled[class~="p-inputtext"] {
+    border: 1px solid #c5d4cb;
+    background-color: #e4ede7;
+
+    &:focus {
+      border: 1px solid #c5d4cb;
+    }
+  }
+}
+.invalid_message {
+  font-size: 11px;
+  color: #cf1515 !important;
+  margin-left: 5px;
+}

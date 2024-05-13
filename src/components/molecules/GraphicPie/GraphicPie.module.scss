@@ -1,0 +1,36 @@
+.doughnut {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 211px;
+    justify-content: center;
+  
+    .doughnut_value {
+      width: 100%;
+      height: 85%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      font-weight: bold;
+      color: #262d3f;
+    }
+  
+    [class~="p-chart"] {
+      width: 400px;
+      height: 400px;
+    }
+  
+    label {
+      width: auto;
+      height: 50%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 18px;
+      color: #292929;
+    }
+  }

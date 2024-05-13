@@ -1,0 +1,197 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 44px;
+
+    .card1{
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 478px;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+        .title{
+            font-size: 40px;
+            color: #1C1C1C;
+            @media (min-width: 1024px) and (max-width: 1538px){
+                text-align: center;
+            }
+        }
+        .subtitle{
+            font-size: 20px;
+            color: #000;
+        }
+        .image{
+            width: 406px;
+            height: 256px;
+            @media (min-width: 1024px) and (max-width: 1538px){
+                width: 280px;
+                height: 180px;
+            }
+            
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .textBottom{
+            font-size: 18px;
+            color: #000;
+            text-align: center;
+            
+            a{
+                text-decoration: underline !important;
+            }
+        }
+    }
+
+    .card2{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        .title{
+            font-size: 40px;
+            color: #000000;
+        }
+        .ImageQr{
+            width: 310px;
+            height: 310px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .textGray{
+           color: #707070; 
+           font-size: 14px;
+        }
+    }
+
+    .card3{
+        padding: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (min-width: 1024px) and (max-width: 1538px){
+            width: 33%;
+        }
+
+        .title{
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .contCards{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            .cont1{
+                padding: 5px 14px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between; 
+                align-items: center;
+                border-radius: 12px;
+    
+                .flag{
+                    width: 30px;
+                    height: 18px;
+        
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+    
+                .both{
+                    display: flex;
+                    flex-direction: column;
+    
+                    .text1{
+                       font-size: 16px; 
+                       color: #000000;
+                    }
+    
+                    .text2{
+                        font-size: 14px;
+                        color: #878D96;
+                    }
+                }
+    
+                .numberCard{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+    
+                    .number{
+                        font-size: 14px;
+                        color: #878D96;
+                    }
+                }
+            }
+    
+            .cont2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 14px 56px;
+                gap: 15px;
+                @media (min-width: 1024px) and (max-width: 1538px){
+                    padding: 14px 19px;
+                }
+                .TextTotal{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 52px;
+    
+                    .text1{
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #000000;
+                    }
+                } 
+    
+                .number{
+                   font-size: 26px;
+                   color: #000000; 
+                   font-weight: 700;
+                   width: 70%;
+                   text-align: right;
+                }
+    
+                .container_code{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 6px;
+                    width: 239px;
+                }
+
+                .ContButton{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .button{
+                       width: 284px;
+                       height: 40px; 
+                    }
+                }
+            }
+        }
+    }
+}

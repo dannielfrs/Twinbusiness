@@ -1,0 +1,350 @@
+.Form15 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F8F8FC;
+    padding: 40px 60px 120px 90px;
+
+    .cardEditMap {
+        padding: 38px 42px;
+        width: 100%;
+        border: 7px solid #FFFFFF99;
+
+        .title_search {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .title {
+                font-size: 35px;
+                font-weight: 700;
+            }
+
+            .search {
+                width: 570px;
+            }
+        }
+
+        .both {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .ChargeMap {
+                width: 40%;
+
+                .card {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-end;
+
+                    p {
+                        // width: 158px;
+                        font-size: 18px;
+                        font-weight: 700;
+                        // margin-left: -198px;
+                    }
+                }
+
+                .contFormato {
+                    height: 48px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding: 0 55px;
+
+                    .text {
+                        color: #707070;
+                        font-size: 25px;
+                    }
+                }
+            }
+
+            .question {
+                width: 40%;
+
+                .CardRadio {
+                    height: 48px;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 50px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .both2 {
+            display: flex;
+            flex-direction: column;
+            height: 70vh;
+            overflow: scroll;
+
+            .contInt {
+                padding: 7px 20px;
+                margin-top: 28px;
+                height: 619px;
+                position: relative;
+                border: 7px solid #FFFFFF99;
+                display: flex;
+                justify-content: space-between;
+
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+
+                .cont1 {
+                    grid-area: 1 / 1 / 3 / 2;
+
+                    .assignColor {
+                        display: flex;
+                        flex-direction: row;
+                        width: 549px;
+                        justify-content: space-around;
+
+                        p {
+                            font-size: 19px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .ContSelectZone {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        margin-top: 15px;
+                        height: 45vh;
+                        overflow: scroll;
+                        width: 588px;
+
+                        .CardZone {
+                            width: 549px;
+                            display: flex;
+                            align-items: center;
+
+                            .textZone {
+                                font-size: 23px;
+                                font-weight: bold;
+                                color: #707070;
+                                width: 100px;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .textNumber {
+                                font-size: 23px;
+                                font-weight: bold;
+                                color: #707070;
+                                width: 133px;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .contColor {
+                                width: 110px;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .widthButton {
+                                width: 189px;
+                                position: relative;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .circleWhite {
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 50%;
+                                border: 1px solid #000;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                .circleColor {
+                                    width: 15px;
+                                    height: 15px;
+                                    border-radius: 50%;
+                                    background: red;
+                                }
+                            }
+
+                            .addColor {
+                                width: 26px;
+                                height: 29px;
+                                background: #000;
+                                color: #fff;
+                                border-radius: 5px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                            }
+
+                            .contSelect {
+                                position: absolute;
+                                top: 42px;
+                                left: 480px;
+                            }
+                        }
+                    }
+                }
+
+                .cont2 {
+                    grid-area: 1 / 2 / 2 / 3;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 60px;
+
+                    P {
+                        font-size: 17px;
+                        font-weight: 700;
+                    }
+
+                    .circle {
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        border: 1px solid #000;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .circleColor {
+                            width: 15px;
+                            height: 15px;
+                            border-radius: 50%;
+                            background: #707070;
+                        }
+                    }
+                }
+
+                .cont3 {
+                    grid-area: 1 / 3 / 2 / 4;
+                    display: flex;
+                    align-items: center;
+                    height: 60px;
+                    gap: 28px;
+
+                    .textTotal {
+                        font-size: 17px;
+                        font-weight: 700;
+                    }
+
+                    .textNumber {
+                        font-size: 42px;
+                        font-weight: 700;
+                    }
+                }
+
+                .cont4 {
+                    grid-area: 2 / 2 / 3 / 4;
+                    height: 500px;
+                }
+            }
+
+            .ScrollNo {
+                *::-webkit-scrollbar {
+                    width: 0 !important;
+                    height: 0 !important;
+                    box-shadow: inset 3px 3px 4px rgba(18, 18, 18, 0.07), inset -3px 3px 4px rgb(255 255 255) !important;
+                    border-radius: 0 !important;
+
+                }
+
+                *::-webkit-scrollbar-thumb {
+                    background-image: unset !important;
+                    border-radius: 10px;
+                }
+            }
+
+            .ContTable {
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 25px;
+                    font-weight: 700;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+
+    .divButtons {
+        // height: 90px;
+        //position: fixed;
+        //bottom: 40px;
+        //right: 50px;
+
+        .btns {
+            display: inline-block;
+            margin-left: 20px;
+            text-align: center;
+            position: relative;
+            font-size: 20px;
+            width: 230px;
+
+            button {
+                font-weight: bold;
+            }
+
+            .labelnext {
+                font-size: .8vw;
+                font-weight: 300;
+                position: absolute;
+                top: -26px;
+                right: 1px;
+                /* z-index: 11; */
+                width: 100%;
+            }
+
+        }
+    }
+
+    .divButtonsStatic {
+        float: right;
+        margin-top: 50px;
+    }
+
+    .divButtonsAbsolute {
+        position: absolute;
+        right: 100px;
+        bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper_slide {
+    width: 100%;
+    height: 100%;
+    padding: 30px 70px;
+}
+
+.table_column_image {
+    width: 100%;
+
+    img {
+        padding: 4px;
+        box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.219), -2px -3px 4px rgb(255, 255, 255);
+    }
+}

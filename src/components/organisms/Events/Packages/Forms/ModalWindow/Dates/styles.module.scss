@@ -1,0 +1,33 @@
+.Map{
+    position: relative;
+    width: 100%;
+    
+    .divconten{
+        display: grid;
+        grid-template-columns: 100%;
+
+        .tabsBtns{
+            display: flex;
+            flex-direction: row;
+            width: 389px;
+            background: #F8F8FC;
+            box-shadow: -4px -4px 4px #FFFFFF;
+            border-radius: 12px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .tabPanel{
+            margin-top: 20px;
+            .headtitle{
+                text-align: center;
+            }
+        }
+    }
+
+    .contendiv{
+        margin-top: 30px;
+    }
+}

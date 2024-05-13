@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="779" viewBox="0 0 826 779">
+  <defs>
+    <clipPath id="clip-Web_1920_46">
+      <rect width="826" height="779"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_46" data-name="Web 1920 – 46" clip-path="url(#clip-Web_1920_46)">
+    <rect width="826" height="779" fill="#fff"/>
+    <g id="Grupo_75851" data-name="Grupo 75851" transform="translate(6231.171 21617.004)">
+      <g id="Grupo_63986" data-name="Grupo 63986" transform="translate(-6068.525 -21422.809)">
+        <path id="Icon_material-crop-landscape" data-name="Icon material-crop-landscape" d="M451,7.5H60.313A55.977,55.977,0,0,0,4.5,63.313V342.38a55.977,55.977,0,0,0,55.813,55.813H451a55.977,55.977,0,0,0,55.812-55.813V63.313A55.977,55.977,0,0,0,451,7.5Zm0,334.88H60.313V63.313H451Z" transform="translate(-4.5 -7.5)" fill="#181a21"/>
+      </g>
+      <rect id="Rectángulo_14566" data-name="Rectángulo 14566" width="252.465" height="38.296" rx="1" transform="translate(-5935.329 -21341.006)" fill="#181a21"/>
+      <rect id="Rectángulo_14567" data-name="Rectángulo 14567" width="252.465" height="38.296" rx="1" transform="translate(-5935.329 -21278.055)" fill="#181a21"/>
+      <rect id="Rectángulo_14568" data-name="Rectángulo 14568" width="252.465" height="38.296" rx="1" transform="translate(-5935.329 -21215.104)" fill="#181a21"/>
+      <rect id="Rectángulo_14569" data-name="Rectángulo 14569" width="252.465" height="38.296" rx="1" transform="translate(-5935.329 -21152.154)" fill="#181a21"/>
+    </g>
+  </g>
+</svg>

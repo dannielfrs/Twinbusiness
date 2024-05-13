@@ -1,0 +1,69 @@
+.section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F8F8FC;
+    padding: 40px 60px 120px 90px;
+
+    .ContGuest {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .ContTop {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .textLeft {
+                .titleInfo {
+                    font-size: 29px;
+                    font-weight: 700;
+                }
+
+                .textInfo {
+                    font-size: 18px;
+                    width: 433px;
+                }
+            }
+
+        }
+
+        .totalSponsor {
+            width: 360px;
+            height: 47px;
+            background: #000;
+            color: #fff;
+            font-size: 17px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .ContCards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 45px;
+            justify-content: center;
+            height: 69vh;
+            overflow: scroll;
+            overflow-x: unset;
+
+            .Card {
+                width: 465px;
+            }
+        }
+    }
+}
+
+.section_footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}

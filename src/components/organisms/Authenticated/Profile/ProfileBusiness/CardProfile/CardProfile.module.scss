@@ -1,0 +1,151 @@
+.card {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_event {
+    cursor: pointer;
+}
+
+.card_container {
+    width: 100%;
+    display: flex;
+    background: transparent linear-gradient(241deg, #000000 0%, #252525 48%, #545454 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 5px 15px 5px 7px;
+    gap: 15px;
+}
+
+.card_banner {
+    width: 35%;
+    height: 250px;
+    border-radius: 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+.card_content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card_title {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card_group {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.card_info {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card_info_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    p {
+        height: 20px;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+}
+
+.card_date {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.certification {
+    margin-top: auto;
+}
+
+.card_info_icons {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: auto;
+
+    .certificate {
+        width: 40px;
+        height: 40px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .imageNationality {
+        width: 30px;
+        height: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+        }
+    }
+}
+
+.card_aside {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card_code {
+    width: 100%;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.card_actions {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.button_action {
+    img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}

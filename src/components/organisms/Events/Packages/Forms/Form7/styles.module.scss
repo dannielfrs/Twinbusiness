@@ -1,0 +1,319 @@
+.form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    flex-direction: row;
+    top: 0;
+    background: #F8F8FC;
+    grid-template-columns: 45% 50%;
+
+    .Form2 {
+        padding: 70px 0 10px;
+        display: grid;
+
+        @media (min-width: 1024px) and (max-width: 1538px) {
+            padding: 20px 0 0;
+        }
+
+        .divtitle {
+            text-align: left;
+            margin-bottom: 20px;
+
+            h2 {
+                font-size: 2vw;
+            }
+        }
+
+        .row4 {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            //margin-top: 20px;
+            padding: 10px;
+        }
+
+        .row3 {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            //margin-top: 20px;
+            padding: 10px;
+        }
+
+
+        .row2 {
+            display: grid;
+            grid-template-columns: 49% 2% 49%;
+            //margin-top: 20px;
+            padding: 10px;
+        }
+
+        .row1 {
+            display: grid;
+            grid-template-columns: 100%;
+            //margin-top: 20px;
+            padding: 10px;
+
+
+        }
+
+        .col {
+            margin: 0px 5px;
+        }
+
+
+        .inputText {
+            margin-top: 20px;
+        }
+
+        .input_text {
+            height: 50px;
+            margin-bottom: 70px;
+        }
+
+        .form_calendar {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+
+            .form_calendar_button {
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .titledivcalendar {
+                font-size: 14px;
+                display: flex;
+                align-self: center;
+            }
+
+            .titledivcalendar2 {
+                font-size: 14px;
+                cursor: pointer;
+                display: flex;
+                align-self: center;
+
+                &:hover {
+                    color: #666;
+                }
+            }
+
+            .trans {
+                margin: 0 10px;
+                transform: rotate(180deg);
+            }
+
+            .noTrans {
+                margin: 0 10px;
+            }
+
+            .selectlabel {
+                font-weight: 700;
+                font-size: 12px;
+                cursor: pointer;
+            }
+        }
+
+        .NewRow {
+            width: 170px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            .ImageAdd {
+                width: 39px;
+                height: 50px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            label {
+                position: relative;
+                left: 10px;
+                font-size: 18px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+            .button_label {
+                position: relative;
+                left: 10px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+
+        .newZonediv {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+            border: none;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+
+    .divButtons {
+        .btns {
+            display: inline-block;
+            margin-left: 20px;
+            text-align: center;
+            position: relative;
+            font-size: 20px;
+            width: 230px;
+
+            button {
+                font-weight: bold;
+            }
+
+            .labelnext {
+                font-size: .8vw;
+                font-weight: 300;
+                position: absolute;
+                top: -26px;
+                right: 1px;
+                width: 100%;
+            }
+
+        }
+    }
+
+    .blackBtn {
+        width: 100%;
+        height: 45px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        background-color: #000000;
+        padding: 11px 30px !important;
+        box-shadow: 5px 5px 16px 0px rgba(158, 158, 158, 0.75);
+        color: #F8F8FC;
+        cursor: pointer;
+        font-size: 1vw;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divButtonsStatic {
+        float: right;
+        margin-top: 50px;
+    }
+
+    .divButtonsAbsolute {
+        position: absolute;
+        right: 100px;
+        bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: flex-end;
+    }
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+
+    .form_input_label {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    .form_input_content {
+        height: 35px;
+        padding: 0 15px;
+        border-radius: 0.73vw;
+        box-shadow: 3px 3px 3px rgba(223, 223, 223, 0.4666666667), -4px -4px 4px #FFFFFF !important;
+        color: gray;
+
+        [class~=p-colorpicker] {}
+    }
+}
+
+.form_calendar_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.button_calendar {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+        filter: opacity(80%);
+    }
+
+    label {
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    img {
+        margin: 0;
+    }
+}
+
+.form_list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.form_table {
+    width: 45%;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+
+    .button_icon {
+        width: 45px;
+        height: 45px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    label {
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+.form_buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

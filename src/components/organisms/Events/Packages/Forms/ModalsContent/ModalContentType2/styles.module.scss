@@ -1,0 +1,134 @@
+.ModalContent{
+    .divtitle{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        h2{
+            font-size: 18px;
+        }
+    }
+    .divList{
+        .item{
+            /*
+            display: grid;
+            grid-template-columns: 90% 5% 5%;
+
+            font-family: "Heebo", sans-serif;
+            padding: .4vw 0.7vw;
+            border-radius: 0.73vw;
+            background-color: transparent;
+            box-shadow: 3px 3px 3px rgba(223, 223, 223, 0.4666666667), -4px -4px 4px #FFFFFF !important;
+            border: unset !important;
+            color: gray !important;
+            font-size: 12px;
+            font-weight: 700;*/
+            font-family: "Heebo", sans-serif;
+            padding: .7vw 0.7vw;
+            border-bottom: 1px solid #eee;
+            width: 100%;
+
+            .inputCustom{
+                display: inline-block;
+                border: 0px;
+                background: #f8f8fc;
+                &:focus-visible{
+                    outline: inherit;
+                }
+            }
+
+            .icons{
+                cursor: pointer;
+                display: inline-block;
+                img{
+                    padding-top: 3px;
+                    width: 25px;
+                    padding-right: 10px;
+                }
+            }
+        }
+        padding-bottom: 20px;
+    }
+    .newElement{
+        font-family: "Heebo", sans-serif;
+        padding: .2vw 0.7vw;
+        border-radius: 0.73vw;
+        background-color: transparent;
+        box-shadow: 3px 3px 3px rgba(223, 223, 223, 0.4666666667), -4px -4px 4px #FFFFFF !important;
+        border: unset !important;
+        color: gray !important;
+        font-size: 12px;
+        font-weight: 700;
+        height: 30px;
+
+        .inputCustom{
+            display: inline-block;
+            border: 0px;
+            background: #f8f8fc;
+            width: 100%;
+            &:focus-visible{
+                outline: inherit;
+            }
+        }
+    }
+    .savediv{
+        //width: 30%;
+        //float: right;
+        text-align: right;
+        width: 100%;
+    }
+    .add{
+        cursor: pointer;
+        .numcompaniesdiv{
+            margin-top: 10px;
+            margin-bottom: 10px;
+    
+            display: grid;
+            grid-template-columns: 5% 95%;
+    
+            .labelctm{
+                font-family: "Heebo", sans-serif;
+                position: relative;
+                font-size: 14px;
+                font-weight: 400;
+                //top: 6px;
+            }
+            .addLabel{
+                text-align: center;
+                background: #000;
+                width: 20px;
+                height: 20px;
+                border-radius: 2px;
+                cursor: pointer;
+                label{
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .row2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        //margin-top: 20px;
+        padding: 10px;
+    }
+    .row2_custom1{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        //margin-top: 20px;
+        padding: 10px;
+    }
+    .row1{
+        display: grid;
+        grid-template-columns: 100%;
+        //margin-top: 20px;
+        padding: 10px;
+    }
+    .col{
+        margin: 0px 5px;
+    }
+
+    .pTB15{
+        padding: 15px 0;
+    }
+}

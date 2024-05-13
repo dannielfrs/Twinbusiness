@@ -1,0 +1,163 @@
+.AuthHeader {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 15px 0 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+    left: 0;
+
+    .left {
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+
+        .dropSolutions {
+            width: 120px;
+
+            @media (min-width: 1024px) and (max-width: 1440px) {
+                width: 111px;
+            }
+        }
+
+        .buttonSell {
+            width: 124px;
+
+            @media (min-width: 1024px) and (max-width: 1440px) {
+                width: 64px;
+            }
+        }
+    }
+
+    .InputSearch {
+        width: 606px;
+
+        @media (min-width: 1024px) and (max-width: 1440px) {
+            width: 448px;
+        }
+    }
+
+    .tabsBtns {
+        display: flex;
+        flex-direction: row;
+        width: 389px;
+        background: #F8F8FC;
+        box-shadow: 3px 3px 5px #d6d5d5;
+        border-radius: 12px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+
+        .cont_tabs {
+            @media (min-width: 1024px) and (max-width: 1440px) {
+                width: 63px;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+
+        .flag {
+            width: 90px;
+
+            @media (min-width: 1024px) and (max-width: 1440px) {
+                width: 90px;
+            }
+        }
+
+        .iconos {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+
+            @media (min-width: 1024px) and (max-width: 1440px) {
+                gap: 7px;
+            }
+
+            .icono {
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+
+                @media (min-width: 1024px) and (max-width: 1440px) {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .section_user {
+            margin: 0 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            p {
+                width: 140px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                text-align: end;
+            }
+
+            .name {
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .email {
+                font-size: 11px;
+                font-weight: 600;
+            }
+        }
+
+        .section_picture {
+            position: relative;
+
+            .imgUser {
+                width: 50px;
+                height: 50px;
+                border-radius: 10px;
+
+                @media (min-width: 1024px) and (max-width: 1440px) {
+                    width: 35px;
+                    height: 37px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 9px;
+                }
+            }
+
+            .nationality {
+                width: 17px;
+                height: 17px;
+                position: absolute;
+                top: -8px;
+                right: -6px;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

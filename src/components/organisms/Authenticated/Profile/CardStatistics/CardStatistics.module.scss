@@ -1,0 +1,29 @@
+.card{
+    width: 100%;
+    background-color: #F8F8FC;
+    box-shadow: 8px 4px 14px rgba(18, 18, 18, 0.07), -2px -3px 4px rgb(255, 255, 255);
+    border-radius: 20px;
+    .title{
+        height: 40px;
+        background-color: #D3D3D3;
+        color: #212121;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    }
+
+    .container{
+        padding: 20px;
+        .calendario{
+            width: 170px;
+        }
+
+        .graphic{
+            width: 90%;
+            height: 50%;
+        }
+    }
+}

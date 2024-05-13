@@ -1,0 +1,186 @@
+.CardProfile {
+  width: 100%;
+  //border: solid 7px #FFFFFF99;
+  //box-shadow: 12px 12px 15px #0000002A;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 17px 29px;
+  .title {
+    color: #878d96;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .withimage{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px 5px 7px;
+  }
+  .withoutimage{
+    display: grid;
+    padding: 10px 18px;
+  }
+  .ContProfile {
+    width: 100%;
+    
+    background: transparent
+      linear-gradient(241deg, #000000 0%, #252525 48%, #545454 100%) 0% 0%
+      no-repeat padding-box;
+    //box-shadow: -4px -4px 10px #D3D3D3;
+    border-radius: 10px;
+    
+    gap: 20px;
+
+    .image {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      img {
+        position: relative;
+        top: 40px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+
+    .divinfo {
+      //display: flex;
+      //flex-direction: row;
+      //display: grid;
+      //grid-template-columns: 40% 60%;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 13px;
+
+      .name {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .email {
+        font-size: 13px;
+        color: #ffffff;
+      }
+
+      .tel {
+        font-size: 13px;
+        color: #ffffff;
+      }
+
+      .profile {
+        font-size: 13px;
+        color: #ffffff;
+      }
+
+      .images {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        .certificate {
+          width: 30px;
+          height: 30px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .imageNationality {
+          width: 30px;
+          height: 20px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+    .codigoqr {
+      //width: 160px;
+      //height: 160px;
+      padding-top: 10px;
+      padding-left: 10px;
+      img {
+        width: 50px;
+        //height: 100%;
+      }
+    }
+
+    .actions {
+      gap: 22px;
+      margin-bottom: 10px;
+      display: grid;
+      grid-template-columns: 10% 10% 10%;
+      float: right;
+
+      .act {
+        width: 20px;
+        height: 20px;
+        text-align: right;
+
+        img {
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .both {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+    .text {
+      color: #575f6bb3;
+      font-size: 18px;
+    }
+
+    .IconPath {
+      width: 15px;
+      height: 10px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .buttonqr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 68px;
+    justify-content: flex-end;
+    margin-top: 25px;
+    .qr {
+      background: #f8f8fc 0% 0% no-repeat padding-box;
+      width: 55px;
+      height: 55px;
+      box-shadow: -4px -4px 10px #ffffff;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

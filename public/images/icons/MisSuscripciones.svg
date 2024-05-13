@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="779" viewBox="0 0 826 779">
+  <defs>
+    <clipPath id="clip-Web_1920_10">
+      <rect width="826" height="779"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_10" data-name="Web 1920 – 10" clip-path="url(#clip-Web_1920_10)">
+    <rect width="826" height="779" fill="#fff"/>
+    <g id="Grupo_75907" data-name="Grupo 75907" transform="translate(12951 23939)">
+      <g id="Grupo_75729" data-name="Grupo 75729" transform="translate(0 -18)">
+        <g id="Grupo_75728" data-name="Grupo 75728" transform="translate(-12574.637 -23672)">
+          <path id="Trazado_56437" data-name="Trazado 56437" d="M128.552.086,56.032,4.113A59.475,59.475,0,0,0,.086,66.661L6.758,186.732a11.835,11.835,0,0,0,12.486,11.157h0l167.357-9.3a11.844,11.844,0,0,0,11.17-12.473h0L191.087,56.043A59.454,59.454,0,0,0,128.552.086Z" transform="translate(10.358 150.363) rotate(3)"/>
+          <path id="Trazado_56438" data-name="Trazado 56438" d="M1339.592,353.91a71.442,71.442,0,1,0,71.313,71.574v-.132A71.56,71.56,0,0,0,1339.592,353.91Z" transform="translate(-1236.947 -353.91)"/>
+        </g>
+        <text id="Sale" transform="matrix(0.53, -0.848, 0.848, 0.53, -12837.737, -23336.725)" fill="#f8f8fc" font-size="2" font-family="Heebo-Bold, Heebo" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="2">SALE</tspan></text>
+        <path id="Icon_awesome-tag" data-name="Icon awesome-tag" d="M0,121.018V23.04A23.253,23.253,0,0,1,23.461,0h99.767a23.68,23.68,0,0,1,16.589,6.748l103.562,101.7a22.749,22.749,0,0,1,0,32.584l-99.768,97.978a23.765,23.765,0,0,1-33.179,0L6.871,137.31A22.832,22.832,0,0,1,0,121.018Zm54.743-90.3A23.044,23.044,0,1,0,78.2,53.76,23.253,23.253,0,0,0,54.743,30.72Z" transform="translate(-12539.578 -23550.754) rotate(169)" fill="#000001"/>
+        <text id="Sale-2" data-name="Sale" transform="matrix(0.53, -0.848, 0.848, 0.53, -12796.289, -23636.363)" fill="#f8f8fc" font-size="50" font-family="Heebo-Bold, Heebo" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="52">SALE</tspan></text>
+        <text id="Sale-3" data-name="Sale" transform="matrix(0.53, -0.848, 0.848, 0.53, -12717.169, -23584.262)" fill="#f8f8fc" font-size="50" font-family="Heebo-Bold, Heebo" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="52">SALE</tspan></text>
+        <text id="Sale-4" data-name="Sale" transform="matrix(0.53, -0.848, 0.848, 0.53, -12756.289, -23609.262)" fill="#f8f8fc" font-size="50" font-family="Heebo-Bold, Heebo" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="52">SALE</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

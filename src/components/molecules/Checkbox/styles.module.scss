@@ -1,0 +1,201 @@
+/**
+ * Styles for base component
+ */
+
+ .checkbox{
+  font-size: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  .label{
+    margin-left: 17px;
+    color: #000;
+    font-size: 1vw;
+  }
+
+  .labelBold{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 17px;
+  }
+
+
+  .white{
+    background: #fff !important;
+    box-shadow: 2px 2px 5px 0px rgba(158, 158, 158, 0.75) !important;
+    border-radius: 5px !important;
+
+    
+    
+    [class~="p-checkbox"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+
+      &:focus-visible{
+        outline:none
+      }
+    }
+    [class~="p-checkbox"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+    }
+    [class~="p-checkbox-box"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+    }
+    [class~="p-highlight"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+    }
+
+    [class~="p-checkbox-icon"] {
+      color: #000 !important;
+    }
+  }
+
+  .CircleBlack{
+    background: #fff !important;
+    box-shadow: 2px 2px 5px 0px rgba(158, 158, 158, 0.75) !important;
+    border-radius: 5px !important;
+    
+    [class~="p-checkbox"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+
+      &:focus-visible{
+        outline:none
+      }
+    }
+    [class~="p-checkbox"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+    }
+    [class~="p-checkbox-box"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+    }
+    [class~="p-highlight"] {
+      background: #fff !important;
+      border: 1px solid #eee;
+    }
+
+    [class~="p-checkbox-icon"] {
+      color: #000;
+    }
+  }
+
+  .black{
+    background: #000000 !important;
+    box-shadow: 2px 2px 5px 0px rgba(158, 158, 158, 0.75) !important;
+    border-radius: 10px !important;
+    width: 46px;
+    height: 46px;
+
+    [class~="p-checkbox"] {
+      background: #fff !important;
+      border: 1px solid #000;
+      width: 46px;
+      height: 46px;
+
+      &:focus-visible{
+        outline:none
+      }
+    }
+    [class~="p-checkbox"] {
+      background: #000000 !important;
+      border: 1px solid #000;
+      width: 46px;
+      border-radius: 10px !important;
+      height: 46px;
+    }
+    [class~="p-checkbox-box"] {
+      background: #000000 !important;
+      border: 1px solid #000;
+      width: 46px;
+      border-radius: 10px !important;
+      height: 46px;
+    }
+    [class~="p-highlight"] {
+      background: #000000 !important;
+      border: 1px solid #000;
+      width: 46px;
+      height: 46px;
+      
+    }
+
+    [class~="p-checkbox-icon"] {
+      color: #ffffff;
+      width: 29px;
+      height: 20px;
+      font-weight: 900;
+    }
+  }
+
+  .whiteB{
+    background: #F8F8FC !important;
+    box-shadow: 2px 2px 5px 0px rgba(158, 158, 158, 0.75) !important;
+    border-radius: 10px !important;
+    width: 46px;
+    height: 46px;
+
+    &::placeholder{
+      border: 2px solid #000 !important;
+    }
+
+    [class~="p-checkbox"] {
+      background: #F8F8FC !important;
+      border: 2px solid #000;
+      width: 46px;
+      height: 46px;
+
+      &:focus-visible{
+        outline:none
+      }
+
+      &::placeholder{
+        border: 2px solid #000 !important;
+      }
+    }
+    [class~="p-checkbox"] {
+      background: #F8F8FC !important;
+      border: 2px solid #000;
+      width: 46px;
+      border-radius: 10px !important;
+      height: 46px;
+
+      &::placeholder{
+        border: 2px solid #000 !important;
+      }
+    }
+    [class~="p-checkbox-box"] {
+      background: #F8F8FC !important;
+      border: 2px solid #000;
+      width: 46px;
+      border-radius: 10px !important;
+      height: 46px;
+
+      &::placeholder{
+        border: 2px solid #000 !important;
+      }
+    }
+    [class~="p-highlight"] {
+      background: #F8F8FC !important;
+      border: 2px solid #000;
+      width: 46px;
+      height: 46px;
+
+      &::placeholder{
+        border: 2px solid #000 !important;
+      }
+      
+    }
+
+    [class~="p-checkbox-icon"] {
+      color: #000;
+      width: 29px;
+      height: 20px;
+      font-weight: 900 !important;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.layout {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    grid-template-rows: 90px 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .template_header { 
+        grid-area: 1 / 1 / 2 / 6;
+        z-index: 10; }
+    .template_sidebar { grid-area: 2 / 1 / 6 / 2; }
+    .template_page { grid-area: 2 / 2 / 3 / 3; }
+    
+    
